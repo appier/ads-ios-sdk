@@ -144,27 +144,17 @@ platform :ios do
       remote_branch: branch_name
     )
 
-    sh "echo #{ENV["GITHUB_TOKEN"]}"
-
     # Open pull request
-    # github_api(
-    #   server_url: "https://api.github.com",
-    #   api_token: ENV["GITHUB_TOKEN"],
-    #   http_method: "POST",
-    #   path: "/repos/appier/ads-ios-sdk/pulls",
-    #   body: {
-    #     "head": branch_name,
-    #     "base": "main",
-    #     "title": "Release v#{framework_version}"
-    #   }
-    # )
-
-    create_pull_request(
+    github_api(
+      server_url: "https://api.github.com",
       api_token: ENV["GITHUB_TOKEN"],
-      repo: "appier/ads-ios-sdk",
-      title: "Release v#{framework_version}",
-      head: branch_name,
-      base: "main"
+      http_method: "POST",
+      path: "/repos/appier/ads-ios-sdk/pulls",
+      body: {
+        "head": branch_name,
+        "base": "main",
+        "title": "Release v#{framework_version}"
+      }
     )
   end
 
