@@ -149,7 +149,7 @@ platform :ios do
       server_url: "https://api.github.com",
       api_token: ENV["GITHUB_TOKEN"],
       http_method: "POST",
-      path: "/repos/appier/pmp-ios-sdk/pulls",
+      path: "/repos/appier/ads-ios-sdk/pulls",
       body: {
         "head": branch_name,
         "base": "master",
