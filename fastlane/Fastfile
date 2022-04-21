@@ -161,7 +161,7 @@ platform :ios do
       api_token: ENV["GITHUB_TOKEN"],
       repo: "appier/ads-ios-sdk",
       title: "Release v#{framework_version}",
-      head: branch_name
+      head: branch_name,
       base: "main"
     )
   end
