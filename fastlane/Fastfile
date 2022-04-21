@@ -144,6 +144,8 @@ platform :ios do
       remote_branch: branch_name
     )
 
+    sh "echo #{ENV["GITHUB_TOKEN"]}"
+
     # Open pull request
     # github_api(
     #   server_url: "https://api.github.com",
