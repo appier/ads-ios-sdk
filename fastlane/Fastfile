@@ -1,0 +1,211 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+
+  before_all do
+    setup_circle_ci
+  end
+
+  desc "Generate Xcode workspace"
+  lane :generate do |options|
+    if options[:git_tag]
+      ENV["TUIST_APPIER_GIT_TAG"] = options[:git_tag]
+
+    elsif options[:git_branch]
+      ENV["TUIST_APPIER_GIT_SHA"] = git_sha(
+        repository: "git@bitbucket.org:plaxieappier/pmp-ios-sdk.git",
+        branch: options[:git_branch]
+      )
+
+    elsif options[:local_path]
+      ENV["TUIST_APPIER_LOCAL_PATH"] = "#{options[:local_path]}/pmp-ios-sdk"
+    end
+
+    if is_ci
+      ENV["TUIST_IS_CI"] = "YES"
+    end
+
+    Dir.chdir("..") do
+      sh "tuist clean"
+      sh "tuist generate"
+      if is_ci
+      elsif
+        sh "pod install"
+      end
+    end
+  end
+
+  desc "Build Appier Ads framework"
+  lane :build do |options|
+    ci_build_number = ENV["CIRCLE_BUILD_NUM"]
+
+    unless ci_build_number.nil?
+      increment_build_number(
+        build_number: ci_build_number,
+        xcodeproj: "./AppierAdsSdk/AppierAdsSdk.xcodeproj"
+      )
+    end
+
+    timestamp = Time.new.strftime("%Y%m%d-%H%M%S")
+    fallback_output_directory = "AppierAdsFramework/#{timestamp}"
+    xcframework_output_directory = options.fetch(:xcframework_output_directory, fallback_output_directory)
+    archive_output_directory = options.fetch(:archive_output_directory, fallback_output_directory)
+    configuration = options[:configuration]
+
+    build_appier_framework(
+      configuration: configuration,
+      output_directory: xcframework_output_directory
+    )
+
+    plist_file = "../#{xcframework_output_directory}/AppierAdsWorkspace.xcframework/ios-arm64/AppierAds.framework/Info.plist"
+    version_number = sh("/usr/libexec/PlistBuddy #{plist_file} -c 'Print :CFBundleShortVersionString'").strip
+    build_number = sh("/usr/libexec/PlistBuddy #{plist_file} -c 'Print :CFBundleVersion'").strip
+
+    archive_name = "AppierAdsFramework-v#{version_number}"
+
+    unless build_number == "0"
+      archive_name += "-#{build_number}"
+    end
+
+    unless configuration.nil?
+      archive_name += "-#{configuration}"
+    end
+
+    commit = last_git_commit
+    short_hash = commit[:abbreviated_commit_hash]
+    archive_name += "-#{short_hash}"
+
+    Dir.chdir("../#{xcframework_output_directory}") do
+      sh "zip -r #{archive_name}.zip AppierAdsWorkspace.xcframework"
+
+      unless xcframework_output_directory == archive_output_directory
+        sh "mkdir -p ../#{archive_output_directory}"
+        sh "mv #{archive_name}.zip ../#{archive_output_directory}/"
+      end
+    end
+
+    copy_artifacts(
+      target_path: ENV["FL_OUTPUT_DIR"],
+      keep_original: false,
+      artifacts: [
+        xcframework_output_directory,
+        archive_output_directory
+      ]
+    )
+  end
+
+  desc "Open GitHub pull request"
+  lane :pr do |options|
+    branch_name = options.fetch(:branch_name, "master")
+    framework_version = get_framework_version
+
+    # Set Podspec version
+    version_file = {
+      "version" => "v#{framework_version}"
+    }
+
+    File.write("../version.json", version_file.to_json)
+
+    # Commit and push changes
+    sh "git checkout -b #{branch_name}"
+
+    path = [
+      "./*.xcframework/*",
+      "./version.json"
+    ]
+
+    git_add(
+      path: path
+    )
+
+    git_commit(
+      path: path,
+      message: "Release #{framework_version}"
+    )
+
+    push_to_git_remote(
+      force: true,
+      local_branch: branch_name,
+      remote_branch: branch_name
+    )
+
+    # Open pull request
+    github_api(
+      server_url: "https://api.github.com",
+      api_token: ENV["GITHUB_TOKEN"],
+      http_method: "POST",
+      path: "/repos/appier/pmp-ios-sdk/pulls",
+      body: {
+        "head": branch_name,
+        "base": "master",
+        "title": "Release v#{framework_version}"
+      }
+    )
+  end
+
+  desc "Deploy Podspecs to CocoaPods Trunk"
+  lane :pods do
+    Dir.chdir("..") do
+      sh "pod trunk push AppierAdsFramework.podspec --allow-warnings"
+    end
+  end
+
+  desc "Create release on GitHub"
+  lane :release do
+    framework_version = get_framework_version
+    tag = "v#{framework_version}"
+    archive_name = "AppierAdsFramework.zip"
+
+    Dir.chdir("..") do
+      sh "zip -r #{archive_name} AppierAdsWorkspace.xcframework"
+    end
+
+    github_release = set_github_release(
+      repository_name: "appier/ads-ios-sdk",
+      api_token: ENV["GITHUB_TOKEN"],
+      name: "Appier Ads iOS SDK #{framework_version}",
+      tag_name: tag,
+      description: "",
+      commitish: "master",
+      upload_assets: [
+        archive_name
+      ]
+    )
+  end
+
+  private_lane :get_framework_version do
+    plist_file = "../AppierAdsWorkspace.xcframework/ios-arm64/AppierAds.framework/Info.plist"
+    sh("/usr/libexec/PlistBuddy #{plist_file} -c 'Print :CFBundleShortVersionString'").strip
+  end
+
+  private_lane :git_sha do |options|
+    repository = options[:repository]
+    branch = options[:branch]
+
+    output = sh "git ls-remote #{repository} #{branch}"
+
+    if output.empty?
+      UI.important "#{repository}: #{branch} branch doesn't exist. Falling back on master branch..."
+      output = sh "git ls-remote #{repository} master"
+    end
+
+    sha = /[^\s]+/.match(output)[0]
+    sha
+  end
+
+end
