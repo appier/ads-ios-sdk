@@ -145,16 +145,24 @@ platform :ios do
     )
 
     # Open pull request
-    github_api(
-      server_url: "https://api.github.com",
+    # github_api(
+    #   server_url: "https://api.github.com",
+    #   api_token: ENV["GITHUB_TOKEN"],
+    #   http_method: "POST",
+    #   path: "/repos/appier/ads-ios-sdk/pulls",
+    #   body: {
+    #     "head": branch_name,
+    #     "base": "main",
+    #     "title": "Release v#{framework_version}"
+    #   }
+    # )
+
+    create_pull_request(
       api_token: ENV["GITHUB_TOKEN"],
-      http_method: "POST",
-      path: "/repos/appier/ads-ios-sdk/pulls",
-      body: {
-        "head": branch_name,
-        "base": "main",
-        "title": "Release v#{framework_version}"
-      }
+      repo: "appier/ads-ios-sdk",
+      title: "Release v#{framework_version}",
+      head: branch_name
+      base: "main"
     )
   end
 
