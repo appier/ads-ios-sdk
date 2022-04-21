@@ -111,7 +111,7 @@ platform :ios do
 
   desc "Open GitHub pull request"
   lane :pr do |options|
-    branch_name = options.fetch(:branch_name, "master")
+    branch_name = options.fetch(:branch_name, "main")
     framework_version = get_framework_version
 
     # Set Podspec version
@@ -152,7 +152,7 @@ platform :ios do
       path: "/repos/appier/ads-ios-sdk/pulls",
       body: {
         "head": branch_name,
-        "base": "master",
+        "base": "main",
         "title": "Release v#{framework_version}"
       }
     )
@@ -181,7 +181,7 @@ platform :ios do
       name: "Appier Ads iOS SDK #{framework_version}",
       tag_name: tag,
       description: "",
-      commitish: "master",
+      commitish: "main",
       upload_assets: [
         archive_name
       ]
@@ -200,8 +200,8 @@ platform :ios do
     output = sh "git ls-remote #{repository} #{branch}"
 
     if output.empty?
-      UI.important "#{repository}: #{branch} branch doesn't exist. Falling back on master branch..."
-      output = sh "git ls-remote #{repository} master"
+      UI.important "#{repository}: #{branch} branch doesn't exist. Falling back on main branch..."
+      output = sh "git ls-remote #{repository} main"
     end
 
     sha = /[^\s]+/.match(output)[0]
