@@ -111,7 +111,7 @@ platform :ios do
 
   desc "Open GitHub pull request"
   lane :pr do |options|
-    branch_name = options.fetch(:branch_name, "main")
+    branch_name = options.fetch(:branch_name, "release")
     framework_version = get_framework_version
 
     # Set Podspec version
