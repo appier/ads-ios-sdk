@@ -73,7 +73,7 @@ platform :ios do
   desc "Deploy Podspecs to CocoaPods Trunk"
   lane :pods do
     Dir.chdir("..") do
-      sh "pod trunk push AppierAdsFramework.podspec --allow-warnings"
+      sh "pod trunk push AppierAds.podspec --allow-warnings"
     end
   end
 
