@@ -70,6 +70,13 @@ platform :ios do
     )
   end
 
+  desc "Register CocoaPods Trunk"
+  lane :regsiterpods do
+    Dir.chdir("..") do
+      sh "pod trunk register ios-dev@appier.com 'Appier iOS Bot'"
+    end
+  end
+
   desc "Deploy Podspecs to CocoaPods Trunk"
   lane :pods do
     Dir.chdir("..") do
