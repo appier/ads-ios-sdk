@@ -80,7 +80,6 @@ platform :ios do
   desc "Deploy Podspecs to CocoaPods Trunk"
   lane :pods do
     Dir.chdir("..") do
-      sh "grep -A2 'trunk.cocoapods.org' ~/.netrc"
       sh "pod trunk push AppierAds.podspec --allow-warnings"
     end
   end
