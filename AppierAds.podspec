@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author       = { "Appier" => "justin.kuo@appier.com" }
   s.platform     = :ios, '12.0'
   s.source       = { :git => "https://github.com/appier/ads-ios-sdk.git", :tag => package['version']}
-  s.ios.vendored_frameworks = 'AppierAdsWorkspace.xcframework'
+  s.ios.vendored_frameworks = 'AppierAds.xcframework'
   s.frameworks = 'AdSupport', 'CoreTelephony', 'SystemConfiguration', 'CoreLocation', 'ImageIO', 'MobileCoreServices'
   s.requires_arc = true
 end

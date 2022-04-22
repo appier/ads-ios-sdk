@@ -14,7 +14,7 @@ module Fastlane
           scheme: "AppierAds",
           configuration: params[:configuration],
           output_directory: output_directory,
-          output_name: "AppierAdsWorkspace.xcframework"
+          output_name: "AppierAds.xcframework"
         )
 
         output_absolute_path = File.expand_path(output_directory)
@@ -30,7 +30,7 @@ module Fastlane
       #####################################################
 
       def self.description
-        "Build AppierAdsWorkspace.xcframework binary frameworks."
+        "Build AppierAds.xcframework binary frameworks."
       end
 
       def self.available_options

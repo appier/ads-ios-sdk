@@ -70,13 +70,6 @@ platform :ios do
     )
   end
 
-  desc "Register CocoaPods Trunk"
-  lane :registerpods do
-    Dir.chdir("..") do
-      sh "pod trunk register ios-dev@appier.com 'Appier iOS Bot'"
-    end
-  end
-
   desc "Deploy Podspecs to CocoaPods Trunk"
   lane :pods do
     Dir.chdir("..") do
@@ -91,7 +84,7 @@ platform :ios do
     archive_name = "AppierAdsFramework.zip"
 
     Dir.chdir("..") do
-      sh "zip -r #{archive_name} AppierAdsWorkspace.xcframework"
+      sh "zip -r #{archive_name} AppierAds.xcframework"
     end
 
     github_release = set_github_release(
@@ -108,7 +101,7 @@ platform :ios do
   end
 
   private_lane :get_framework_version do
-    plist_file = "../AppierAdsWorkspace.xcframework/ios-arm64/AppierAds.framework/Info.plist"
+    plist_file = "../AppierAds.xcframework/ios-arm64/AppierAds.framework/Info.plist"
     sh("/usr/libexec/PlistBuddy #{plist_file} -c 'Print :CFBundleShortVersionString'").strip
   end
 
