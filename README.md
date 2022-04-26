@@ -22,7 +22,7 @@ Appier Inc., justin.kuo@appier.com
 
 ## License
 
-Appier is available under the MIT license. See the LICENSE file for more info.
+AppierAds is available under the MIT license. See the LICENSE file for more info.
 
 ## Documentation
 
