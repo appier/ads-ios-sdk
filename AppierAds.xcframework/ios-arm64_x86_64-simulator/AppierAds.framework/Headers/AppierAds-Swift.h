@@ -261,6 +261,9 @@ SWIFT_CLASS("_TtC9AppierAds19APRAdsConfiguraiton")
 @interface APRAdsConfiguraiton : NSObject
 @property (nonatomic) enum APRTestMode testMode;
 @property (nonatomic) enum APRBrowserAgent browserAgent;
+@property (nonatomic) BOOL coppaApplies;
+@property (nonatomic) BOOL gdprApplies;
+@property (nonatomic) BOOL forceGDPRApplies;
 @property (nonatomic, copy) NSString * _Nullable sourceAppId;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -429,6 +432,7 @@ typedef SWIFT_ENUM(NSInteger, APRTestMode, open) {
   APRTestModeNone = 0,
   APRTestModeBid = 1,
   APRTestModeNoBid = 2,
+  APRTestModeBidWithStoreView = 3,
 };
 
 
@@ -442,7 +446,6 @@ SWIFT_PROTOCOL("_TtP9AppierAds16NativeAdDelegate_")
 - (void)onAdClickedRecordedWithNativeAd:(APRNativeAd * _Nonnull)nativeAd;
 - (void)onAdClickedRecordedFailedWithNativeAd:(APRNativeAd * _Nonnull)nativeAd error:(APRError * _Nonnull)error;
 @end
-
 
 
 #if __has_attribute(external_source_symbol)
@@ -713,6 +716,9 @@ SWIFT_CLASS("_TtC9AppierAds19APRAdsConfiguraiton")
 @interface APRAdsConfiguraiton : NSObject
 @property (nonatomic) enum APRTestMode testMode;
 @property (nonatomic) enum APRBrowserAgent browserAgent;
+@property (nonatomic) BOOL coppaApplies;
+@property (nonatomic) BOOL gdprApplies;
+@property (nonatomic) BOOL forceGDPRApplies;
 @property (nonatomic, copy) NSString * _Nullable sourceAppId;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -881,6 +887,7 @@ typedef SWIFT_ENUM(NSInteger, APRTestMode, open) {
   APRTestModeNone = 0,
   APRTestModeBid = 1,
   APRTestModeNoBid = 2,
+  APRTestModeBidWithStoreView = 3,
 };
 
 
@@ -894,7 +901,6 @@ SWIFT_PROTOCOL("_TtP9AppierAds16NativeAdDelegate_")
 - (void)onAdClickedRecordedWithNativeAd:(APRNativeAd * _Nonnull)nativeAd;
 - (void)onAdClickedRecordedFailedWithNativeAd:(APRNativeAd * _Nonnull)nativeAd error:(APRError * _Nonnull)error;
 @end
-
 
 
 #if __has_attribute(external_source_symbol)

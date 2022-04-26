@@ -91,6 +91,7 @@ extension AppierAds.APRBannerAdView : AppierAds.APRBannerAdDelegate {
   @objc public func render()
   @objc public func clickAdView(sender: Any? = nil)
   @objc public func clickPrivacyInformationView(sender: Any? = nil)
+  public func untrackAdView()
   @objc deinit
 }
 @objc public protocol NativeAdDelegate {
@@ -153,6 +154,7 @@ extension AppierAds.APRBannerAdView : AppierAds.APRBannerAdDelegate {
   case none = 0
   case bid
   case noBid
+  case bidWithStoreView
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -162,21 +164,18 @@ extension AppierAds.APRBannerAdView : AppierAds.APRBannerAdDelegate {
 @_inheritsConvenienceInitializers @objc final public class APRAdsConfiguraiton : ObjectiveC.NSObject {
   @objc final public var testMode: AppierAds.APRTestMode
   @objc final public var browserAgent: AppierAds.APRBrowserAgent
+  @objc final public var coppaApplies: Swift.Bool
+  @objc final public var gdprApplies: Swift.Bool {
+    @objc get
+    @objc set(value)
+  }
+  @objc final public var forceGDPRApplies: Swift.Bool {
+    @objc get
+    @objc set(value)
+  }
   @objc final public var sourceAppId: Swift.String?
   @objc override dynamic public init()
   @objc deinit
-}
-public enum ConsentStatus : Swift.String {
-  case explicitYes
-  case explicitNo
-  case unknown
-  case potentialAllowList
-  case doNotTrack
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
 }
 @objc public class APRError : ObjectiveC.NSObject, Swift.Error {
   @objc override dynamic public var description: Swift.String {
