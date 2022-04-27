@@ -80,7 +80,7 @@ platform :ios do
   desc "Create Ads SDK release on GitHub"
   lane :release_ads_sdk do
     framework_version = get_framework_version_ads_sdk
-    tag = "v#{framework_version}"
+    tag = "ads-sdk-v#{framework_version}"
     archive_name = "AppierAdsFramework.zip"
 
     Dir.chdir("..") do
@@ -159,7 +159,7 @@ platform :ios do
   desc "Create Admob Mediation release on GitHub"
   lane :release_admob_mediation do
     framework_version = get_framework_version_admob_mediation
-    tag = "v#{framework_version}"
+    tag = "admob-mediation-v#{framework_version}"
     archive_name = "AppierAdmobMediationFramework.zip"
 
     Dir.chdir("..") do
