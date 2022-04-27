@@ -37,7 +37,7 @@ platform :ios do
     sh "git checkout -b #{branch_name}"
 
     path = [
-      "./*.xcframework/*",
+      "./AppierAds.xcframework/*",
       "./version_ads_sdk.json"
     ]
 
@@ -116,7 +116,7 @@ platform :ios do
     sh "git checkout -b #{branch_name}"
 
     path = [
-      "./*.xcframework/*",
+      "./AppierAdmobMediation.xcframework/*",
       "./version_admob_mediation.json"
     ]
 
