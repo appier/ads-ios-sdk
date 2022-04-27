@@ -1,6 +1,6 @@
 require 'json'
 
-package = JSON.parse(File.read(File.join(__dir__, 'version.json')))
+package = JSON.parse(File.read(File.join(__dir__, 'version_ads_sdk.json')))
 
 Pod::Spec.new do |s|
   s.name         = "AppierAds"
