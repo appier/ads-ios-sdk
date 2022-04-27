@@ -21,24 +21,24 @@ platform :ios do
     setup_circle_ci
   end
 
-  desc "Open GitHub pull request"
-  lane :pr do |options|
-    branch_name = options.fetch(:branch_name, "release")
-    framework_version = get_framework_version
+  desc "Open GitHub Ads SDK pull request"
+  lane :pr_ads_sdk do |options|
+    branch_name = options.fetch(:branch_name, "release_ads_sdk")
+    framework_version = get_framework_version_ads_sdk
 
     # Set Podspec version
     version_file = {
       "version" => "v#{framework_version}"
     }
 
-    File.write("../version.json", version_file.to_json)
+    File.write("../version_ads_sdk.json", version_file.to_json)
 
     # Commit and push changes
     sh "git checkout -b #{branch_name}"
 
     path = [
       "./*.xcframework/*",
-      "./version.json"
+      "./version_ads_sdk.json"
     ]
 
     git_add(
@@ -47,7 +47,7 @@ platform :ios do
 
     git_commit(
       path: path,
-      message: "Release #{framework_version}"
+      message: "Release Ads SDK #{framework_version}"
     )
 
     push_to_git_remote(
@@ -65,21 +65,21 @@ platform :ios do
       body: {
         "head": branch_name,
         "base": "main",
-        "title": "Release v#{framework_version}"
+        "title": "Release Ads SDK v#{framework_version}"
       }
     )
   end
 
-  desc "Deploy Podspecs to CocoaPods Trunk"
-  lane :pods do
+  desc "Deploy Ads SDK Podspecs to CocoaPods Trunk"
+  lane :pods_ads_sdk do
     Dir.chdir("..") do
       sh "pod trunk push AppierAds.podspec --allow-warnings"
     end
   end
 
-  desc "Create release on GitHub"
-  lane :release do
-    framework_version = get_framework_version
+  desc "Create Ads SDK release on GitHub"
+  lane :release_ads_sdk do
+    framework_version = get_framework_version_ads_sdk
     tag = "v#{framework_version}"
     archive_name = "AppierAdsFramework.zip"
 
@@ -100,8 +100,92 @@ platform :ios do
     )
   end
 
-  private_lane :get_framework_version do
+  desc "Open GitHub Admob Mediation pull request"
+  lane :pr_admob_mediation do |options|
+    branch_name = options.fetch(:branch_name, "release_admob_mediation")
+    framework_version = get_framework_version_admob_mediation
+
+    # Set Podspec version
+    version_file = {
+      "version" => "v#{framework_version}"
+    }
+
+    File.write("../version_admob_mediation.json", version_file.to_json)
+
+    # Commit and push changes
+    sh "git checkout -b #{branch_name}"
+
+    path = [
+      "./*.xcframework/*",
+      "./version_admob_mediation.json"
+    ]
+
+    git_add(
+      path: path
+    )
+
+    git_commit(
+      path: path,
+      message: "Release Admob Mediation #{framework_version}"
+    )
+
+    push_to_git_remote(
+      force: true,
+      local_branch: branch_name,
+      remote_branch: branch_name
+    )
+
+    # Open pull request
+    github_api(
+      server_url: "https://api.github.com",
+      api_token: ENV["GITHUB_TOKEN"],
+      http_method: "POST",
+      path: "/repos/appier/ads-ios-sdk/pulls",
+      body: {
+        "head": branch_name,
+        "base": "main",
+        "title": "Release Admob Mediation v#{framework_version}"
+      }
+    )
+  end
+
+  desc "Deploy Admob Mediation Podspecs to CocoaPods Trunk"
+  lane :pods_admob_mediation do
+    Dir.chdir("..") do
+      sh "pod trunk push AppierAdmobMediation.podspec --allow-warnings"
+    end
+  end
+
+  desc "Create Admob Mediation release on GitHub"
+  lane :release_admob_mediation do
+    framework_version = get_framework_version_admob_mediation
+    tag = "v#{framework_version}"
+    archive_name = "AppierAdmobMediationFramework.zip"
+
+    Dir.chdir("..") do
+      sh "zip -r #{archive_name} AppierAdmobMediation.xcframework"
+    end
+
+    github_release = set_github_release(
+      repository_name: "appier/ads-ios-sdk",
+      api_token: ENV["GITHUB_TOKEN"],
+      name: "Appier Admob Mediation iOS SDK #{framework_version}",
+      tag_name: tag,
+      description: "",
+      commitish: "main",
+      upload_assets: [
+        archive_name
+      ]
+    )
+  end
+
+  private_lane :get_framework_version_ads_sdk do
     plist_file = "../AppierAds.xcframework/ios-arm64/AppierAds.framework/Info.plist"
+    sh("/usr/libexec/PlistBuddy #{plist_file} -c 'Print :CFBundleShortVersionString'").strip
+  end
+
+  private_lane :get_framework_version_admob_mediation do
+    plist_file = "../AppierAdmobMediation.xcframework/ios-arm64/AppierAdmobMediation.framework/Info.plist"
     sh("/usr/libexec/PlistBuddy #{plist_file} -c 'Print :CFBundleShortVersionString'").strip
   end
 
