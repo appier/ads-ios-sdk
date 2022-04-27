@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   s.frameworks = 'AdSupport', 'CoreTelephony', 'SystemConfiguration', 'CoreLocation', 'ImageIO', 'MobileCoreServices'
   s.requires_arc = true
 
-  s.dependency "Google-Mobile-Ads-SDK", "~> 9.3.0"
-  s.dependency "AppierAds", "~> 0.1.6"
+  # s.dependency "Google-Mobile-Ads-SDK", "~> 9.3.0"
+  # s.dependency "AppierAds", "~> 0.1.6"
 end
