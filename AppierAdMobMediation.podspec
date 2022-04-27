@@ -3,7 +3,7 @@ require 'json'
 package = JSON.parse(File.read(File.join(__dir__, 'version_admob_mediation.json')))
 
 Pod::Spec.new do |s|
-  s.name         = "AppierAdMobMediation"
+  s.name         = "AppierAdmobMediation"
   s.version      = package['version'][1..-1]
   s.summary      = "AppierAdMobMediation is the library for Appier Enterprise Solutions."
   s.homepage     = "https://www.appier.com"
