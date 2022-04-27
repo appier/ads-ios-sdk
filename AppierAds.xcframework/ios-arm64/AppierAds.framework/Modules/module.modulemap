@@ -1,0 +1,4 @@
+framework module AppierAds {
+  header "AppierAds-Swift.h"
+  requires objc
+}
