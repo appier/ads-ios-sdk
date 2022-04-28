@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "Google-Mobile-Ads-SDK", "~> 9.3.0"
-  s.dependency "AppierAds", "~> 0.1.6"
+  s.dependency "AppierAds", "~> 0.1.8"
 end
