@@ -116,7 +116,7 @@ platform :ios do
     sh "git checkout -b #{branch_name}"
 
     path = [
-      "./AppierAdMobMediation.xcframework/*",
+      "./AppierAdsAdMobMediation.xcframework/*",
       "./version_admob_mediation.json"
     ]
 
@@ -152,7 +152,7 @@ platform :ios do
   desc "Deploy Admob Mediation Podspecs to CocoaPods Trunk"
   lane :pods_admob_mediation do
     Dir.chdir("..") do
-      sh "pod trunk push AppierAdmobMediation.podspec --allow-warnings"
+      sh "pod trunk push AppierAdsAdMobMediation.podspec --allow-warnings"
     end
   end
 
@@ -163,7 +163,7 @@ platform :ios do
     archive_name = "AppierAdMobMediationFramework.zip"
 
     Dir.chdir("..") do
-      sh "zip -r #{archive_name} AppierAdMobMediation.xcframework"
+      sh "zip -r #{archive_name} AppierAdsAdMobMediation.xcframework"
     end
 
     github_release = set_github_release(
@@ -185,7 +185,7 @@ platform :ios do
   end
 
   private_lane :get_framework_version_admob_mediation do
-    plist_file = "../AppierAdMobMediation.xcframework/ios-arm64/AppierAdMobMediation.framework/Info.plist"
+    plist_file = "../AppierAdsAdMobMediation.xcframework/ios-arm64/AppierAdsAdMobMediation.framework/Info.plist"
     sh("/usr/libexec/PlistBuddy #{plist_file} -c 'Print :CFBundleShortVersionString'").strip
   end
 
