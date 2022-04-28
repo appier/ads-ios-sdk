@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
-// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name AppierAds
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AppierAds
 import AdSupport
 import AppTrackingTransparency
 import CoreTelephony
@@ -39,7 +39,7 @@ extension AppierAds.APRBannerAd : UIKit.UIWebViewDelegate {
 }
 @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) final public class APRBannerAdView : UIKit.UIView {
   @objc @_Concurrency.MainActor(unsafe) weak final public var delegate: AppierAds.APRBannerAdViewDelegate?
-  @objc @_Concurrency.MainActor(unsafe) public convenience init(adUnitId: AppierAds.APRAdUnitIdentifier)
+  @objc @_Concurrency.MainActor(unsafe) convenience public init(adUnitId: AppierAds.APRAdUnitIdentifier)
   @objc @_Concurrency.MainActor(unsafe) public init(adUnitId: AppierAds.APRAdUnitIdentifier, size: CoreGraphics.CGSize)
   @objc @_Concurrency.MainActor(unsafe) final public func set(adUnitId: AppierAds.APRAdUnitIdentifier)
   @objc @_Concurrency.MainActor(unsafe) final public func set(extras: AppierAds.APRAdExtras)
@@ -84,7 +84,7 @@ extension AppierAds.APRBannerAdView : AppierAds.APRBannerAdDelegate {
   public var clickedTrackingUrls: [Foundation.URL]? {
     get
   }
-  @objc public convenience init(adUnitId: AppierAds.APRAdUnitIdentifier)
+  @objc convenience public init(adUnitId: AppierAds.APRAdUnitIdentifier)
   @objc public func set(renderer: AppierAds.APRNativeAdRendering)
   @objc public func loadAd()
   public func recordImpression()
@@ -112,7 +112,7 @@ extension AppierAds.APRBannerAdView : AppierAds.APRBannerAdDelegate {
   @objc func getNativeAdClickableViews() -> [UIKit.UIView]
 }
 @_inheritsConvenienceInitializers @objc public class APRAdExtras : ObjectiveC.NSObject {
-  @objc override required dynamic public init()
+  @objc required override dynamic public init()
   @objc public func set(key: AppierAds.APRDataKey, value: Any)
   @objc public func get(key: AppierAds.APRDataKey) -> Any?
   @objc deinit
@@ -151,10 +151,7 @@ extension AppierAds.APRBannerAdView : AppierAds.APRBannerAdDelegate {
   public var description: Swift.String {
     get
   }
-  case none = 0
-  case bid
-  case noBid
-  case bidWithStoreView
+  case none = 0, bid, noBid, bidWithStoreView
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -167,11 +164,11 @@ extension AppierAds.APRBannerAdView : AppierAds.APRBannerAdDelegate {
   @objc final public var coppaApplies: Swift.Bool
   @objc final public var gdprApplies: Swift.Bool {
     @objc get
-    @objc set(value)
+    @objc set
   }
   @objc final public var forceGDPRApplies: Swift.Bool {
     @objc get
-    @objc set(value)
+    @objc set
   }
   @objc final public var sourceAppId: Swift.String?
   @objc override dynamic public init()
@@ -232,9 +229,7 @@ public enum NetworkStatus : Swift.String {
 public struct LogMessage {
 }
 public enum LogPrivacy {
-  case auto
-  case `private`
-  case `public`
+  case auto, `private`, `public`
   public static func == (a: AppierAds.LogPrivacy, b: AppierAds.LogPrivacy) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -256,8 +251,25 @@ extension AppierAds.LogMessage : Swift.ExpressibleByStringInterpolation {
   public init(stringInterpolation: AppierAds.LogMessage.StringInterpolation)
   public struct StringInterpolation : Swift.StringInterpolationProtocol {
     public init(literalCapacity: Swift.Int, interpolationCount: Swift.Int)
-    public mutating func appendLiteral(_ literal: AppierAds.LogMessage.StringLiteralType)
+    public mutating func appendLiteral(_ literal: Swift.StringLiteralType)
     public mutating func appendInterpolation(_ object: Any?, privacy: AppierAds.LogPrivacy = .auto)
-    public typealias StringLiteralType = AppierAds.LogMessage.StringLiteralType
+    public typealias StringLiteralType = Swift.StringLiteralType
   }
 }
+extension AppierAds.APRDataKey : Swift.Equatable {}
+extension AppierAds.APRDataKey : Swift.Hashable {}
+extension AppierAds.APRDataKey : Swift.RawRepresentable {}
+extension AppierAds.APRBrowserAgent : Swift.Equatable {}
+extension AppierAds.APRBrowserAgent : Swift.Hashable {}
+extension AppierAds.APRBrowserAgent : Swift.RawRepresentable {}
+extension AppierAds.APRTestMode : Swift.Equatable {}
+extension AppierAds.APRTestMode : Swift.Hashable {}
+extension AppierAds.APRTestMode : Swift.RawRepresentable {}
+extension AppierAds.APRErrorType : Swift.Equatable {}
+extension AppierAds.APRErrorType : Swift.Hashable {}
+extension AppierAds.APRErrorType : Swift.RawRepresentable {}
+extension AppierAds.NetworkStatus : Swift.Equatable {}
+extension AppierAds.NetworkStatus : Swift.Hashable {}
+extension AppierAds.NetworkStatus : Swift.RawRepresentable {}
+extension AppierAds.LogPrivacy : Swift.Equatable {}
+extension AppierAds.LogPrivacy : Swift.Hashable {}
