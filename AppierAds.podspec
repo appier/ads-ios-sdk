@@ -15,4 +15,5 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'AppierAds.xcframework'
   s.frameworks = 'Foundation', 'UIKit', 'StoreKit', 'AdSupport', 'AppTrackingTransparency'
   s.requires_arc = true
+  s.readme = 'https://github.com/appier/ads-ios-sdk/blob/main/README.md'
 end

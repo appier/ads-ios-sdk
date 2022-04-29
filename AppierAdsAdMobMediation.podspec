@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
   s.frameworks = 'Foundation'
   s.requires_arc = true
   s.static_framework = true
+  s.readme = 'https://github.com/appier/ads-ios-sdk/blob/main/README_ADMOB_MEDIATION.md'
 
   s.dependency "Google-Mobile-Ads-SDK", "~> 9.3.0"
   s.dependency "AppierAds", "~> 0.1.8"
