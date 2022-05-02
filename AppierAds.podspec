@@ -15,5 +15,6 @@ Pod::Spec.new do |s|
   s.frameworks = 'Foundation', 'UIKit', 'StoreKit', 'AdSupport', 'AppTrackingTransparency'
   s.requires_arc = true
   s.static_framework = true
+  s.user_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
   s.readme = 'https://github.com/appier/ads-ios-sdk/blob/main/README_ADS_SDK.md'
 end
