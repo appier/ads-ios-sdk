@@ -7,7 +7,6 @@ Pod::Spec.new do |s|
   s.version      = package['version'][1..-1]
   s.summary      = "AppierAds is the library for Appier Enterprise Solutions."
   s.homepage     = "https://www.appier.com"
-  # s.documentation_url = "https://docs.aiqua.appier.com/docs"
   s.license    = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Appier" => "justin.kuo@appier.com" }
   s.platform     = :ios, '12.0'
@@ -15,5 +14,6 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'AppierAds.xcframework'
   s.frameworks = 'Foundation', 'UIKit', 'StoreKit', 'AdSupport', 'AppTrackingTransparency'
   s.requires_arc = true
-  s.readme = 'https://github.com/appier/ads-ios-sdk/blob/main/README.md'
+  s.static_framework = true
+  s.readme = 'https://github.com/appier/ads-ios-sdk/blob/main/README_ADS_SDK.md'
 end
