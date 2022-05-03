@@ -228,14 +228,6 @@ public enum NetworkStatus : Swift.String {
 }
 public struct LogMessage {
 }
-public enum LogPrivacy {
-  case auto, `private`, `public`
-  public static func == (a: AppierAds.LogPrivacy, b: AppierAds.LogPrivacy) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
 extension AppierAds.LogMessage : Swift.CustomStringConvertible {
   public var description: Swift.String {
     get
@@ -252,7 +244,7 @@ extension AppierAds.LogMessage : Swift.ExpressibleByStringInterpolation {
   public struct StringInterpolation : Swift.StringInterpolationProtocol {
     public init(literalCapacity: Swift.Int, interpolationCount: Swift.Int)
     public mutating func appendLiteral(_ literal: Swift.StringLiteralType)
-    public mutating func appendInterpolation(_ object: Any?, privacy: AppierAds.LogPrivacy = .auto)
+    public mutating func appendInterpolation(_ object: Any?)
     public typealias StringLiteralType = Swift.StringLiteralType
   }
 }
@@ -271,5 +263,3 @@ extension AppierAds.APRErrorType : Swift.RawRepresentable {}
 extension AppierAds.NetworkStatus : Swift.Equatable {}
 extension AppierAds.NetworkStatus : Swift.Hashable {}
 extension AppierAds.NetworkStatus : Swift.RawRepresentable {}
-extension AppierAds.LogPrivacy : Swift.Equatable {}
-extension AppierAds.LogPrivacy : Swift.Hashable {}
