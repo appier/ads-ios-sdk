@@ -5,7 +5,7 @@ package = JSON.parse(File.read(File.join(__dir__, 'version_ads_sdk.json')))
 Pod::Spec.new do |s|
   s.name         = "AppierAds"
   s.version      = package['version'][1..-1]
-  s.summary      = "AppierAds is the library for Appier Enterprise Solutions."
+  s.summary      = "The library for Appier Advertising Solutions."
   s.homepage     = "https://www.appier.com"
   s.license    = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Appier" => "justin.kuo@appier.com" }
