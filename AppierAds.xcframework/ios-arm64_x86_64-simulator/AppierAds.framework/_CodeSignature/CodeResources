@@ -10,7 +10,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		FlzLVTBBHPIn4n1X86m1kKbcs34=
+		LJe96bI/12RLsC0dsBnsVF//hQA=
 		</data>
 		<key>Modules/AppierAds.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/AppierAds.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		yr1zt4JBln+k3c7dnvmyDXKv3c0=
+		QIgd2ZGouLxbVdeoUEU8zlFM+KM=
 		</data>
 		<key>Modules/AppierAds.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/AppierAds.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		yr1zt4JBln+k3c7dnvmyDXKv3c0=
+		QIgd2ZGouLxbVdeoUEU8zlFM+KM=
 		</data>
 		<key>Modules/AppierAds.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/AppierAds.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		groJbkUxdwGNjaNBtlqlpyFaIj8=
+		IZkltimJCxb0aVD+R+bJ3Px8efM=
 		</data>
 		<key>Modules/AppierAds.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/AppierAds.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		groJbkUxdwGNjaNBtlqlpyFaIj8=
+		IZkltimJCxb0aVD+R+bJ3Px8efM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -104,11 +104,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yr1zt4JBln+k3c7dnvmyDXKv3c0=
+			QIgd2ZGouLxbVdeoUEU8zlFM+KM=
 			</data>
 			<key>hash2</key>
 			<data>
-			BLqtCOzGKWgg92OW7LIFPtE2rqpSkpmE27j62QIeLTE=
+			+xm8kYcCezzPp7rQhNjomca0tpx1Oq/QrxXyYhu9rss=
 			</data>
 		</dict>
 		<key>Modules/AppierAds.swiftmodule/arm64.swiftdoc</key>
@@ -137,11 +137,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yr1zt4JBln+k3c7dnvmyDXKv3c0=
+			QIgd2ZGouLxbVdeoUEU8zlFM+KM=
 			</data>
 			<key>hash2</key>
 			<data>
-			BLqtCOzGKWgg92OW7LIFPtE2rqpSkpmE27j62QIeLTE=
+			+xm8kYcCezzPp7rQhNjomca0tpx1Oq/QrxXyYhu9rss=
 			</data>
 		</dict>
 		<key>Modules/AppierAds.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -170,11 +170,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			groJbkUxdwGNjaNBtlqlpyFaIj8=
+			IZkltimJCxb0aVD+R+bJ3Px8efM=
 			</data>
 			<key>hash2</key>
 			<data>
-			BGAEYYIMwRjt3z48i9qIn7aPBS8T5CssWstRhZxf0KA=
+			LOBEid599JEbXJXCVX4wUiujjsg2g77nb0h6bttkfBQ=
 			</data>
 		</dict>
 		<key>Modules/AppierAds.swiftmodule/x86_64.swiftdoc</key>
@@ -203,11 +203,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			groJbkUxdwGNjaNBtlqlpyFaIj8=
+			IZkltimJCxb0aVD+R+bJ3Px8efM=
 			</data>
 			<key>hash2</key>
 			<data>
-			BGAEYYIMwRjt3z48i9qIn7aPBS8T5CssWstRhZxf0KA=
+			LOBEid599JEbXJXCVX4wUiujjsg2g77nb0h6bttkfBQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
