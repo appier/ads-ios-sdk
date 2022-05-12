@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
   s.readme = 'https://github.com/appier/ads-ios-sdk/blob/main/README_ADMOB_MEDIATION.md'
 
   s.dependency "Google-Mobile-Ads-SDK", "~> 9.3.0"
-  s.dependency "AppierAds", "~> 0.1.13"
+  s.dependency "AppierAds", "~> 0.1.15"
 end
