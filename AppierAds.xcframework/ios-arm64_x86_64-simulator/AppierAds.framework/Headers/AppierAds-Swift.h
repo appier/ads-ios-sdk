@@ -197,10 +197,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CoreGraphics;
 @import Foundation;
 @import ObjectiveC;
-@import UIKit;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -273,69 +271,6 @@ SWIFT_CLASS("_TtC9AppierAds19APRAdsConfiguraiton")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
-SWIFT_CLASS("_TtC9AppierAds12AppierBaseAd")
-@interface AppierBaseAd : NSObject
-- (void)setWithExtras:(APRAdExtras * _Nullable)extras;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-@protocol APRBannerAdDelegate;
-@class UIWebView;
-
-SWIFT_CLASS("_TtC9AppierAds11APRBannerAd")
-@interface APRBannerAd : AppierBaseAd
-@property (nonatomic, weak) id <APRBannerAdDelegate> _Nullable delegate;
-- (nonnull instancetype)initWithAdUnitId:(id <APRAdUnitIdentifier> _Nonnull)adUnitId OBJC_DESIGNATED_INITIALIZER;
-- (UIWebView * _Nullable)getWebView SWIFT_WARN_UNUSED_RESULT;
-- (void)loadAd;
-@end
-
-@class NSURLRequest;
-
-@interface APRBannerAd (SWIFT_EXTENSION(AppierAds)) <UIWebViewDelegate>
-- (BOOL)webView:(UIWebView * _Nonnull)webView shouldStartLoadWithRequest:(NSURLRequest * _Nonnull)request navigationType:(UIWebViewNavigationType)navigationType SWIFT_WARN_UNUSED_RESULT;
-@end
-
-@class APRError;
-
-SWIFT_PROTOCOL("_TtP9AppierAds19APRBannerAdDelegate_")
-@protocol APRBannerAdDelegate
-- (void)onAdLoadedWithBannerAd:(APRBannerAd * _Nonnull)bannerAd;
-- (void)onAdLoadFailedWithBannerAd:(APRBannerAd * _Nonnull)bannerAd error:(APRError * _Nonnull)error;
-- (void)onViewClickWithBannerAd:(APRBannerAd * _Nonnull)bannerAd;
-@end
-
-@protocol APRBannerAdViewDelegate;
-@class NSCoder;
-
-SWIFT_CLASS("_TtC9AppierAds15APRBannerAdView")
-@interface APRBannerAdView : UIView
-@property (nonatomic, weak) id <APRBannerAdViewDelegate> _Nullable delegate;
-- (nonnull instancetype)initWithAdUnitId:(id <APRAdUnitIdentifier> _Nonnull)adUnitId;
-- (nonnull instancetype)initWithAdUnitId:(id <APRAdUnitIdentifier> _Nonnull)adUnitId size:(CGSize)size OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (void)setWithAdUnitId:(id <APRAdUnitIdentifier> _Nonnull)adUnitId;
-- (void)setWithExtras:(APRAdExtras * _Nonnull)extras;
-- (void)loadAd;
-- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
-@end
-
-
-@interface APRBannerAdView (SWIFT_EXTENSION(AppierAds)) <APRBannerAdDelegate>
-- (void)onAdLoadFailedWithBannerAd:(APRBannerAd * _Nonnull)bannerAd error:(APRError * _Nonnull)error;
-- (void)onViewClickWithBannerAd:(APRBannerAd * _Nonnull)bannerAd;
-- (void)onAdLoadedWithBannerAd:(APRBannerAd * _Nonnull)bannerAd;
-@end
-
-
-SWIFT_PROTOCOL("_TtP9AppierAds23APRBannerAdViewDelegate_")
-@protocol APRBannerAdViewDelegate
-- (void)adViewDidLoadAdWithView:(APRBannerAdView * _Nonnull)view adSize:(CGSize)adSize;
-- (void)adViewDidFailToLoadAdWithErrorWithView:(APRBannerAdView * _Nonnull)view error:(APRError * _Nonnull)error;
-@end
-
 typedef SWIFT_ENUM(NSInteger, APRBrowserAgent, open) {
   APRBrowserAgentNative = 0,
 };
@@ -382,6 +317,14 @@ SWIFT_CLASS("_TtC9AppierAds9APRLogger")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+
+SWIFT_CLASS("_TtC9AppierAds12AppierBaseAd")
+@interface AppierBaseAd : NSObject
+- (void)setWithExtras:(APRAdExtras * _Nullable)extras;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 @protocol NativeAdDelegate;
 @class UIImage;
 @protocol APRNativeAdRendering;
@@ -405,6 +348,7 @@ SWIFT_CLASS("_TtC9AppierAds11APRNativeAd")
 
 @class UILabel;
 @class UIImageView;
+@class UIView;
 
 /// The APRNativeAdRendering protocol provides methods for displaying ad content in custom view classes.
 SWIFT_PROTOCOL("_TtP9AppierAds20APRNativeAdRendering_")
@@ -657,10 +601,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CoreGraphics;
 @import Foundation;
 @import ObjectiveC;
-@import UIKit;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -733,69 +675,6 @@ SWIFT_CLASS("_TtC9AppierAds19APRAdsConfiguraiton")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
-SWIFT_CLASS("_TtC9AppierAds12AppierBaseAd")
-@interface AppierBaseAd : NSObject
-- (void)setWithExtras:(APRAdExtras * _Nullable)extras;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-@protocol APRBannerAdDelegate;
-@class UIWebView;
-
-SWIFT_CLASS("_TtC9AppierAds11APRBannerAd")
-@interface APRBannerAd : AppierBaseAd
-@property (nonatomic, weak) id <APRBannerAdDelegate> _Nullable delegate;
-- (nonnull instancetype)initWithAdUnitId:(id <APRAdUnitIdentifier> _Nonnull)adUnitId OBJC_DESIGNATED_INITIALIZER;
-- (UIWebView * _Nullable)getWebView SWIFT_WARN_UNUSED_RESULT;
-- (void)loadAd;
-@end
-
-@class NSURLRequest;
-
-@interface APRBannerAd (SWIFT_EXTENSION(AppierAds)) <UIWebViewDelegate>
-- (BOOL)webView:(UIWebView * _Nonnull)webView shouldStartLoadWithRequest:(NSURLRequest * _Nonnull)request navigationType:(UIWebViewNavigationType)navigationType SWIFT_WARN_UNUSED_RESULT;
-@end
-
-@class APRError;
-
-SWIFT_PROTOCOL("_TtP9AppierAds19APRBannerAdDelegate_")
-@protocol APRBannerAdDelegate
-- (void)onAdLoadedWithBannerAd:(APRBannerAd * _Nonnull)bannerAd;
-- (void)onAdLoadFailedWithBannerAd:(APRBannerAd * _Nonnull)bannerAd error:(APRError * _Nonnull)error;
-- (void)onViewClickWithBannerAd:(APRBannerAd * _Nonnull)bannerAd;
-@end
-
-@protocol APRBannerAdViewDelegate;
-@class NSCoder;
-
-SWIFT_CLASS("_TtC9AppierAds15APRBannerAdView")
-@interface APRBannerAdView : UIView
-@property (nonatomic, weak) id <APRBannerAdViewDelegate> _Nullable delegate;
-- (nonnull instancetype)initWithAdUnitId:(id <APRAdUnitIdentifier> _Nonnull)adUnitId;
-- (nonnull instancetype)initWithAdUnitId:(id <APRAdUnitIdentifier> _Nonnull)adUnitId size:(CGSize)size OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (void)setWithAdUnitId:(id <APRAdUnitIdentifier> _Nonnull)adUnitId;
-- (void)setWithExtras:(APRAdExtras * _Nonnull)extras;
-- (void)loadAd;
-- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
-@end
-
-
-@interface APRBannerAdView (SWIFT_EXTENSION(AppierAds)) <APRBannerAdDelegate>
-- (void)onAdLoadFailedWithBannerAd:(APRBannerAd * _Nonnull)bannerAd error:(APRError * _Nonnull)error;
-- (void)onViewClickWithBannerAd:(APRBannerAd * _Nonnull)bannerAd;
-- (void)onAdLoadedWithBannerAd:(APRBannerAd * _Nonnull)bannerAd;
-@end
-
-
-SWIFT_PROTOCOL("_TtP9AppierAds23APRBannerAdViewDelegate_")
-@protocol APRBannerAdViewDelegate
-- (void)adViewDidLoadAdWithView:(APRBannerAdView * _Nonnull)view adSize:(CGSize)adSize;
-- (void)adViewDidFailToLoadAdWithErrorWithView:(APRBannerAdView * _Nonnull)view error:(APRError * _Nonnull)error;
-@end
-
 typedef SWIFT_ENUM(NSInteger, APRBrowserAgent, open) {
   APRBrowserAgentNative = 0,
 };
@@ -842,6 +721,14 @@ SWIFT_CLASS("_TtC9AppierAds9APRLogger")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+
+SWIFT_CLASS("_TtC9AppierAds12AppierBaseAd")
+@interface AppierBaseAd : NSObject
+- (void)setWithExtras:(APRAdExtras * _Nullable)extras;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 @protocol NativeAdDelegate;
 @class UIImage;
 @protocol APRNativeAdRendering;
@@ -865,6 +752,7 @@ SWIFT_CLASS("_TtC9AppierAds11APRNativeAd")
 
 @class UILabel;
 @class UIImageView;
+@class UIView;
 
 /// The APRNativeAdRendering protocol provides methods for displaying ad content in custom view classes.
 SWIFT_PROTOCOL("_TtP9AppierAds20APRNativeAdRendering_")
