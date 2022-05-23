@@ -22,39 +22,6 @@ import os
   @objc public func set(extras: AppierAds.APRAdExtras?)
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc final public class APRBannerAd : AppierAds.AppierBaseAd {
-  @objc weak final public var delegate: AppierAds.APRBannerAdDelegate?
-  @objc public init(adUnitId: AppierAds.APRAdUnitIdentifier)
-  @objc final public func getWebView() -> UIKit.UIWebView?
-  @objc final public func loadAd()
-  @objc deinit
-}
-extension AppierAds.APRBannerAd : UIKit.UIWebViewDelegate {
-  @_Concurrency.MainActor(unsafe) @objc final public func webView(_ webView: UIKit.UIWebView, shouldStartLoadWith request: Foundation.URLRequest, navigationType: UIKit.UIWebView.NavigationType) -> Swift.Bool
-}
-@objc public protocol APRBannerAdDelegate {
-  @objc func onAdLoaded(bannerAd: AppierAds.APRBannerAd)
-  @objc func onAdLoadFailed(bannerAd: AppierAds.APRBannerAd, error: AppierAds.APRError)
-  @objc func onViewClick(bannerAd: AppierAds.APRBannerAd)
-}
-@_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) final public class APRBannerAdView : UIKit.UIView {
-  @objc @_Concurrency.MainActor(unsafe) weak final public var delegate: AppierAds.APRBannerAdViewDelegate?
-  @objc @_Concurrency.MainActor(unsafe) convenience public init(adUnitId: AppierAds.APRAdUnitIdentifier)
-  @objc @_Concurrency.MainActor(unsafe) public init(adUnitId: AppierAds.APRAdUnitIdentifier, size: CoreGraphics.CGSize)
-  @objc @_Concurrency.MainActor(unsafe) final public func set(adUnitId: AppierAds.APRAdUnitIdentifier)
-  @objc @_Concurrency.MainActor(unsafe) final public func set(extras: AppierAds.APRAdExtras)
-  @objc @_Concurrency.MainActor(unsafe) final public func loadAd()
-  @objc deinit
-}
-extension AppierAds.APRBannerAdView : AppierAds.APRBannerAdDelegate {
-  @_Concurrency.MainActor(unsafe) @objc final public func onAdLoadFailed(bannerAd: AppierAds.APRBannerAd, error: AppierAds.APRError)
-  @_Concurrency.MainActor(unsafe) @objc final public func onViewClick(bannerAd: AppierAds.APRBannerAd)
-  @_Concurrency.MainActor(unsafe) @objc final public func onAdLoaded(bannerAd: AppierAds.APRBannerAd)
-}
-@objc public protocol APRBannerAdViewDelegate {
-  @objc func adViewDidLoadAd(view: AppierAds.APRBannerAdView, adSize: CoreGraphics.CGSize)
-  @objc func adViewDidFailToLoadAdWithError(view: AppierAds.APRBannerAdView, error: AppierAds.APRError)
-}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class APRNativeAd : AppierAds.AppierBaseAd {
   @objc weak public var delegate: AppierAds.NativeAdDelegate?
   @objc public var title: Swift.String? {
