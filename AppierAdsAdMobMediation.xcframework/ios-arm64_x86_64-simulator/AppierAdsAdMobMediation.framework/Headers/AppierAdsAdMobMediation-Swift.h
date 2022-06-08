@@ -234,6 +234,28 @@ SWIFT_CLASS("_TtC23AppierAdsAdMobMediation12APRAdAdapter")
 @interface APRAdExtras (SWIFT_EXTENSION(AppierAdsAdMobMediation)) <GADAdNetworkExtras>
 @end
 
+@class APRAdMobNativeAd;
+@class APRError;
+
+SWIFT_PROTOCOL("_TtP23AppierAdsAdMobMediation23APRAdMobAdEventDelegate_")
+@protocol APRAdMobAdEventDelegate
+@optional
+- (void)onNativeAdImpressionRecordedWithNativeAd:(APRAdMobNativeAd * _Nonnull)nativeAd;
+- (void)onNativeAdImpressionRecordedFailedWithNativeAd:(APRAdMobNativeAd * _Nonnull)nativeAd error:(APRError * _Nonnull)error;
+- (void)onNativeAdClickedRecordedWithNativeAd:(APRAdMobNativeAd * _Nonnull)nativeAd;
+- (void)onNativeAdClickedRecordedFailedWithNativeAd:(APRAdMobNativeAd * _Nonnull)nativeAd error:(APRError * _Nonnull)error;
+@end
+
+
+SWIFT_CLASS("_TtC23AppierAdsAdMobMediation17APRAdMobAdManager")
+@interface APRAdMobAdManager : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) APRAdMobAdManager * _Nonnull shared;)
++ (APRAdMobAdManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@property (nonatomic, strong) id <APRAdMobAdEventDelegate> _Nullable eventDelegate;
+@end
+
 @class NSString;
 
 SWIFT_CLASS("_TtC23AppierAdsAdMobMediation17APRAdMobMediation")
@@ -255,7 +277,6 @@ SWIFT_CLASS("_TtC23AppierAdsAdMobMediation16APRAdMobNativeAd")
 @end
 
 @class APRNativeAd;
-@class APRError;
 
 @interface APRAdMobNativeAd (SWIFT_EXTENSION(AppierAdsAdMobMediation)) <NativeAdDelegate>
 - (void)onAdLoadedWithNativeAd:(APRNativeAd * _Nonnull)nativeAd;
@@ -530,6 +551,28 @@ SWIFT_CLASS("_TtC23AppierAdsAdMobMediation12APRAdAdapter")
 @interface APRAdExtras (SWIFT_EXTENSION(AppierAdsAdMobMediation)) <GADAdNetworkExtras>
 @end
 
+@class APRAdMobNativeAd;
+@class APRError;
+
+SWIFT_PROTOCOL("_TtP23AppierAdsAdMobMediation23APRAdMobAdEventDelegate_")
+@protocol APRAdMobAdEventDelegate
+@optional
+- (void)onNativeAdImpressionRecordedWithNativeAd:(APRAdMobNativeAd * _Nonnull)nativeAd;
+- (void)onNativeAdImpressionRecordedFailedWithNativeAd:(APRAdMobNativeAd * _Nonnull)nativeAd error:(APRError * _Nonnull)error;
+- (void)onNativeAdClickedRecordedWithNativeAd:(APRAdMobNativeAd * _Nonnull)nativeAd;
+- (void)onNativeAdClickedRecordedFailedWithNativeAd:(APRAdMobNativeAd * _Nonnull)nativeAd error:(APRError * _Nonnull)error;
+@end
+
+
+SWIFT_CLASS("_TtC23AppierAdsAdMobMediation17APRAdMobAdManager")
+@interface APRAdMobAdManager : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) APRAdMobAdManager * _Nonnull shared;)
++ (APRAdMobAdManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@property (nonatomic, strong) id <APRAdMobAdEventDelegate> _Nullable eventDelegate;
+@end
+
 @class NSString;
 
 SWIFT_CLASS("_TtC23AppierAdsAdMobMediation17APRAdMobMediation")
@@ -551,7 +594,6 @@ SWIFT_CLASS("_TtC23AppierAdsAdMobMediation16APRAdMobNativeAd")
 @end
 
 @class APRNativeAd;
-@class APRError;
 
 @interface APRAdMobNativeAd (SWIFT_EXTENSION(AppierAdsAdMobMediation)) <NativeAdDelegate>
 - (void)onAdLoadedWithNativeAd:(APRNativeAd * _Nonnull)nativeAd;

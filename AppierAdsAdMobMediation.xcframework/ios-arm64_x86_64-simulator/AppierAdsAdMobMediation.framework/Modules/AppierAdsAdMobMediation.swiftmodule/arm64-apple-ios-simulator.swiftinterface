@@ -6,6 +6,17 @@ import Foundation
 import GoogleMobileAds
 import Swift
 import _Concurrency
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class APRAdMobAdManager : ObjectiveC.NSObject {
+  @objc public static let shared: AppierAdsAdMobMediation.APRAdMobAdManager
+  @objc final public var eventDelegate: AppierAdsAdMobMediation.APRAdMobAdEventDelegate?
+  @objc deinit
+}
+@objc public protocol APRAdMobAdEventDelegate {
+  @objc optional func onNativeAdImpressionRecorded(nativeAd: AppierAdsAdMobMediation.APRAdMobNativeAd)
+  @objc optional func onNativeAdImpressionRecordedFailed(nativeAd: AppierAdsAdMobMediation.APRAdMobNativeAd, error: AppierAds.APRError)
+  @objc optional func onNativeAdClickedRecorded(nativeAd: AppierAdsAdMobMediation.APRAdMobNativeAd)
+  @objc optional func onNativeAdClickedRecordedFailed(nativeAd: AppierAdsAdMobMediation.APRAdMobNativeAd, error: AppierAds.APRError)
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class APRAdMobMediation : ObjectiveC.NSObject {
   @objc public static let shared: AppierAdsAdMobMediation.APRAdMobMediation
   @objc final public let advertiserIcon: Swift.String
@@ -22,6 +33,12 @@ import _Concurrency
   @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class APRAdMobNativeAd : ObjectiveC.NSObject {
+  public var adUnitId: Swift.String {
+    get
+  }
+  public var zoneId: Swift.String {
+    get
+  }
   @objc deinit
 }
 extension AppierAdsAdMobMediation.APRAdMobNativeAd : GoogleMobileAds.GADMediationNativeAd {
