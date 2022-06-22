@@ -6,9 +6,11 @@ import Foundation
 import GoogleMobileAds
 import Swift
 import _Concurrency
+extension AppierAds.APRAdExtras : GoogleMobileAds.GADAdNetworkExtras {
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class APRAdMobAdManager : ObjectiveC.NSObject {
   @objc public static let shared: AppierAdsAdMobMediation.APRAdMobAdManager
-  @objc final public var eventDelegate: AppierAdsAdMobMediation.APRAdMobAdEventDelegate?
+  @objc weak final public var eventDelegate: AppierAdsAdMobMediation.APRAdMobAdEventDelegate?
   @objc deinit
 }
 @objc public protocol APRAdMobAdEventDelegate {
@@ -19,6 +21,7 @@ import _Concurrency
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class APRAdMobMediation : ObjectiveC.NSObject {
   @objc public static let shared: AppierAdsAdMobMediation.APRAdMobMediation
+  @objc final public let appInfo: Swift.String
   @objc final public let advertiserIcon: Swift.String
   @objc final public let advertiserName: Swift.String
   @objc final public let version: Swift.String
@@ -37,6 +40,9 @@ import _Concurrency
     get
   }
   public var zoneId: Swift.String {
+    get
+  }
+  public var appInfo: Any? {
     get
   }
   @objc deinit
@@ -85,6 +91,4 @@ extension AppierAdsAdMobMediation.APRAdMobNativeAd : AppierAds.NativeAdDelegate 
   @objc dynamic public func onAdImpressionRecordedFailed(nativeAd: AppierAds.APRNativeAd, error: AppierAds.APRError)
   @objc dynamic public func onAdClickedRecorded(nativeAd: AppierAds.APRNativeAd)
   @objc dynamic public func onAdClickedRecordedFailed(nativeAd: AppierAds.APRNativeAd, error: AppierAds.APRError)
-}
-extension AppierAds.APRAdExtras : GoogleMobileAds.GADAdNetworkExtras {
 }

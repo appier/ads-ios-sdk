@@ -251,7 +251,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) APRAdMobAdMa
 + (APRAdMobAdManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@property (nonatomic, strong) id <APRAdMobAdEventDelegate> _Nullable eventDelegate;
+@property (nonatomic, weak) id <APRAdMobAdEventDelegate> _Nullable eventDelegate;
 @end
 
 @class NSString;
@@ -262,6 +262,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) APRAdMobMedi
 + (APRAdMobMediation * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@property (nonatomic, readonly, copy) NSString * _Nonnull appInfo;
 @property (nonatomic, readonly, copy) NSString * _Nonnull advertiserIcon;
 @property (nonatomic, readonly, copy) NSString * _Nonnull advertiserName;
 @property (nonatomic, readonly, copy) NSString * _Nonnull version;
