@@ -281,6 +281,7 @@ typedef SWIFT_ENUM(NSInteger, APRDataKey, open) {
   APRDataKeyAdWidth = 2,
   APRDataKeyAdHeight = 3,
   APRDataKeyAdOrientation = 4,
+  APRDataKeyAppInfo = 5,
 };
 
 enum APRErrorType : NSInteger;
@@ -685,6 +686,7 @@ typedef SWIFT_ENUM(NSInteger, APRDataKey, open) {
   APRDataKeyAdWidth = 2,
   APRDataKeyAdHeight = 3,
   APRDataKeyAdOrientation = 4,
+  APRDataKeyAppInfo = 5,
 };
 
 enum APRErrorType : NSInteger;
