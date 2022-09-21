@@ -33,15 +33,9 @@ import os
   @objc public var callToAction: Swift.String? {
     @objc get
   }
-  @objc public var iconImage: UIKit.UIImage? {
-    @objc get
-  }
-  @objc public var mainImage: UIKit.UIImage? {
-    @objc get
-  }
-  @objc public var privacyInformationImage: UIKit.UIImage? {
-    @objc get
-  }
+  @objc public var iconImage: UIKit.UIImage?
+  @objc public var mainImage: UIKit.UIImage?
+  @objc public var privacyInformationImage: UIKit.UIImage?
   public var clickDestinationUrl: Foundation.URL? {
     get
   }
