@@ -336,9 +336,9 @@ SWIFT_CLASS("_TtC9AppierAds11APRNativeAd")
 @property (nonatomic, readonly, copy) NSString * _Nullable title;
 @property (nonatomic, readonly, copy) NSString * _Nullable mainText;
 @property (nonatomic, readonly, copy) NSString * _Nullable callToAction;
-@property (nonatomic, readonly, strong) UIImage * _Nullable iconImage;
-@property (nonatomic, readonly, strong) UIImage * _Nullable mainImage;
-@property (nonatomic, readonly, strong) UIImage * _Nullable privacyInformationImage;
+@property (nonatomic, strong) UIImage * _Nullable iconImage;
+@property (nonatomic, strong) UIImage * _Nullable mainImage;
+@property (nonatomic, strong) UIImage * _Nullable privacyInformationImage;
 - (nonnull instancetype)initWithAdUnitId:(id <APRAdUnitIdentifier> _Nonnull)adUnitId;
 - (void)setWithRenderer:(id <APRNativeAdRendering> _Nonnull)renderer;
 - (void)loadAd;
@@ -741,9 +741,9 @@ SWIFT_CLASS("_TtC9AppierAds11APRNativeAd")
 @property (nonatomic, readonly, copy) NSString * _Nullable title;
 @property (nonatomic, readonly, copy) NSString * _Nullable mainText;
 @property (nonatomic, readonly, copy) NSString * _Nullable callToAction;
-@property (nonatomic, readonly, strong) UIImage * _Nullable iconImage;
-@property (nonatomic, readonly, strong) UIImage * _Nullable mainImage;
-@property (nonatomic, readonly, strong) UIImage * _Nullable privacyInformationImage;
+@property (nonatomic, strong) UIImage * _Nullable iconImage;
+@property (nonatomic, strong) UIImage * _Nullable mainImage;
+@property (nonatomic, strong) UIImage * _Nullable privacyInformationImage;
 - (nonnull instancetype)initWithAdUnitId:(id <APRAdUnitIdentifier> _Nonnull)adUnitId;
 - (void)setWithRenderer:(id <APRNativeAdRendering> _Nonnull)renderer;
 - (void)loadAd;
