@@ -73,6 +73,7 @@ platform :ios do
   desc "Deploy Ads SDK Podspecs to CocoaPods Trunk"
   lane :pods_ads_sdk do
     Dir.chdir("..") do
+      sh "pod trunk register appier-ssp-dev@appier.com 'Appier Ads Team' --description='CI'"
       sh "pod trunk push AppierAds.podspec --allow-warnings"
     end
   end
@@ -152,6 +153,7 @@ platform :ios do
   desc "Deploy Admob Mediation Podspecs to CocoaPods Trunk"
   lane :pods_admob_mediation do
     Dir.chdir("..") do
+      sh "pod trunk register appier-ssp-dev@appier.com 'Appier Ads Team' --description='CI'"
       sh "pod trunk push AppierAdsAdMobMediation.podspec --allow-warnings"
     end
   end
