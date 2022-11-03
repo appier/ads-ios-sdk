@@ -18,7 +18,7 @@ pod 'AppierAds'
 
 ## Author
 
-Appier Inc., justin.kuo@appier.com
+Appier Inc., appier-ssp-dev@appier.com
 
 ## License
 
