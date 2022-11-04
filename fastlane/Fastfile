@@ -152,6 +152,7 @@ platform :ios do
   desc "Deploy Admob Mediation Podspecs to CocoaPods Trunk"
   lane :pods_admob_mediation do
     Dir.chdir("..") do
+      sh "pod trunk me"
       sh "pod trunk push AppierAdsAdMobMediation.podspec --allow-warnings"
     end
   end
