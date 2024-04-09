@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
   s.user_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
   s.readme = 'https://github.com/appier/ads-ios-sdk/blob/main/README_ADMOB_MEDIATION.md'
 
-  s.dependency "Google-Mobile-Ads-SDK", "~> 9.5"
+  s.dependency "Google-Mobile-Ads-SDK", "~> 11.2"
   s.dependency "AppierAds", "~> 1.2"
 end
