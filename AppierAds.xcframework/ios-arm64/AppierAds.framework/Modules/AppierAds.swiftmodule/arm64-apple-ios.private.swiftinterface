@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AppierAds
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AppierAds
 import AdSupport
 import AppTrackingTransparency
 import CoreTelephony
@@ -10,22 +9,163 @@ import StoreKit
 import Swift
 import SystemConfiguration
 import UIKit
+import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 import os
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class APRAds : ObjectiveC.NSObject {
-  @objc public static var shared: AppierAds.APRAds
-  @objc final public var configuration: AppierAds.APRAdsConfiguraiton
-  @objc final public let version: Swift.String
-  @objc final public func start(completion: ((Swift.Bool) -> Swift.Void)? = nil)
+@_inheritsConvenienceInitializers @objc final public class APRAdsConfiguration : ObjectiveC.NSObject {
+  @objc final public var testMode: AppierAds.APRTestMode
+  @objc final public var browserAgent: AppierAds.APRBrowserAgent
+  @objc final public var coppaApplies: Swift.Bool
+  @objc final public var gdprApplies: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public var forceGDPRApplies: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc override dynamic public init()
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class AppierBaseAd : ObjectiveC.NSObject {
-  @objc public func set(extras: AppierAds.APRAdExtras?)
+  public var adUnitId: any AppierAds.APRAdUnitIdentifier {
+    get
+  }
+  public var extras: AppierAds.APRAdExtras {
+    get
+  }
+  @objc public func set(extras: AppierAds.APRAdExtras)
   @objc deinit
 }
+@_inheritsConvenienceInitializers @objc public class APRAdExtras : ObjectiveC.NSObject {
+  @objc required override dynamic public init()
+  @objc public func set(key: AppierAds.APRDataKey, value: Any)
+  @objc public func get(key: AppierAds.APRDataKey) -> Any?
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class APRAds : ObjectiveC.NSObject {
+  @objc public static var shared: AppierAds.APRAds
+  @objc final public var configuration: AppierAds.APRAdsConfiguration
+  @objc final public let version: Swift.String
+  @objc final public func start(completion: ((_ success: Swift.Bool) -> Swift.Void)? = nil)
+  @objc deinit
+}
+@objc final public class APRAdUnitId : ObjectiveC.NSObject, AppierAds.APRAdUnitIdentifier {
+  @objc public init(_ adUnitId: Swift.String)
+  @objc final public func get() -> Swift.String
+  @objc final public func build() -> Swift.String
+  @objc deinit
+}
+@objc public protocol APRAdUnitIdentifier {
+  @objc func get() -> Swift.String
+  @objc func build() -> Swift.String
+}
+@objc public protocol APRBannerAdDelegate {
+  @objc func onAdNoBid(_ bannerAd: AppierAds.APRBannerAd)
+  @objc func onAdLoaded(_ bannerAd: AppierAds.APRBannerAd, banner: UIKit.UIView)
+  @objc func onAdLoadedFailed(_ bannerAd: AppierAds.APRBannerAd, error: AppierAds.APRError)
+  @objc func onAdImpressionRecorded(_ bannerAd: AppierAds.APRBannerAd)
+  @objc func onAdImpressionRecordedFailed(_ bannerAd: AppierAds.APRBannerAd, error: AppierAds.APRError)
+  @objc func onAdClickedRecorded(_ bannerAd: AppierAds.APRBannerAd)
+  @objc func onAdClickedRecordedFailed(_ bannerAd: AppierAds.APRBannerAd, error: AppierAds.APRError)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class APRBannerAd : AppierAds.AppierBaseAd {
+  @objc weak final public var delegate: (any AppierAds.APRBannerAdDelegate)?
+  @objc public init(adUnitId: any AppierAds.APRAdUnitIdentifier)
+  @objc final public func load()
+  @objc deinit
+}
+@objc public enum APRBrowserAgent : Swift.Int {
+  case native
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum APRDataKey : Swift.Int {
+  case adUnitId
+  case zoneId
+  case adWidth
+  case adHeight
+  case adOrientation
+  case appInfo
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public class APRError : ObjectiveC.NSObject, Swift.Error {
+  @objc override dynamic public var description: Swift.String {
+    @objc get
+  }
+  @objc public init(type: AppierAds.APRErrorType)
+  @objc deinit
+}
+@objc public enum APRErrorType : Swift.Int {
+  case noBid
+  case zoneIdError
+  case adUnitIdError
+  case networkError
+  case badRequest
+  case internalServerError
+  case invalidJson
+  case webViewError
+  case videoPlaybackError
+  case videoFileError
+  case fetchImageError
+  case unknownError
+  case dataConvertError
+  case requestNotExist
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol APRInterstitialAdDelegate {
+  @objc func onAdNoBid(_ interstitialAd: AppierAds.APRInterstitialAd)
+  @objc func onAdLoaded(_ interstitialAd: AppierAds.APRInterstitialAd)
+  @objc func onAdLoadedFailed(_ interstitialAd: AppierAds.APRInterstitialAd, error: AppierAds.APRError)
+  @objc func onAdShown(_ interstitialAd: AppierAds.APRInterstitialAd)
+  @objc func onAdShownFailed(_ interstitialAd: AppierAds.APRInterstitialAd)
+  @objc func onAdDismiss(_ interstitialAd: AppierAds.APRInterstitialAd)
+  @objc func onAdClickedRecorded(_ interstitialAd: AppierAds.APRInterstitialAd)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class APRInterstitialAd : AppierAds.AppierBaseAd {
+  @objc weak final public var delegate: (any AppierAds.APRInterstitialAdDelegate)?
+  @objc public init(adUnitId: any AppierAds.APRAdUnitIdentifier)
+  @objc final public func load()
+  @objc final public func show()
+  @objc deinit
+}
+@objc public class APRLogger : ObjectiveC.NSObject {
+  @objc final public let category: Swift.String
+  @objc public var enable: Swift.Bool {
+    @objc get
+  }
+  public init(category: Swift.String)
+  public func debug(_ message: AppierAds.LogMessage)
+  public func info(_ message: AppierAds.LogMessage)
+  public func warning(_ message: AppierAds.LogMessage)
+  public func error(_ message: AppierAds.LogMessage)
+  @objc deinit
+}
+@objc public protocol NativeAdDelegate {
+  @objc func onAdLoaded(_ nativeAd: AppierAds.APRNativeAd)
+  @objc func onAdLoadedFailed(_ nativeAd: AppierAds.APRNativeAd, error: AppierAds.APRError)
+  @objc func onAdNoBid(_ nativeAd: AppierAds.APRNativeAd)
+  @objc func onAdShown(_ nativeAd: AppierAds.APRNativeAd)
+  @objc func onAdImpressionRecorded(_ nativeAd: AppierAds.APRNativeAd)
+  @objc func onAdImpressionRecordedFailed(_ nativeAd: AppierAds.APRNativeAd, error: AppierAds.APRError)
+  @objc func onAdClickedRecorded(_ nativeAd: AppierAds.APRNativeAd)
+  @objc func onAdClickedRecordedFailed(_ nativeAd: AppierAds.APRNativeAd, error: AppierAds.APRError)
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class APRNativeAd : AppierAds.AppierBaseAd {
-  @objc weak public var delegate: AppierAds.NativeAdDelegate?
+  @objc weak public var delegate: (any AppierAds.NativeAdDelegate)?
   @objc public var title: Swift.String? {
     @objc get
   }
@@ -47,8 +187,8 @@ import os
   public var clickedTrackingUrls: [Foundation.URL]? {
     get
   }
-  @objc convenience public init(adUnitId: AppierAds.APRAdUnitIdentifier)
-  @objc public func set(renderer: AppierAds.APRNativeAdRendering)
+  public init(adUnitId: any AppierAds.APRAdUnitIdentifier)
+  @objc public func set(renderer: any AppierAds.APRNativeAdRendering)
   @objc public func loadAd()
   public func recordImpression()
   @objc public func render()
@@ -56,14 +196,6 @@ import os
   @objc public func clickPrivacyInformationView(sender: Any? = nil)
   public func untrackAdView()
   @objc deinit
-}
-@objc public protocol NativeAdDelegate {
-  @objc func onAdLoaded(nativeAd: AppierAds.APRNativeAd)
-  @objc func onAdLoadedFailed(nativeAd: AppierAds.APRNativeAd, error: AppierAds.APRError)
-  @objc func onAdImpressionRecorded(nativeAd: AppierAds.APRNativeAd)
-  @objc func onAdImpressionRecordedFailed(nativeAd: AppierAds.APRNativeAd, error: AppierAds.APRError)
-  @objc func onAdClickedRecorded(nativeAd: AppierAds.APRNativeAd)
-  @objc func onAdClickedRecordedFailed(nativeAd: AppierAds.APRNativeAd, error: AppierAds.APRError)
 }
 @objc public protocol APRNativeAdRendering {
   @objc var nativeAdTitleLabel: UIKit.UILabel? { get }
@@ -73,43 +205,6 @@ import os
   @objc var nativeAdMainImageView: UIKit.UIImageView? { get }
   @objc var nativeAdPrivacyInformationIconView: UIKit.UIView? { get }
   @objc func getNativeAdClickableViews() -> [UIKit.UIView]
-}
-@_inheritsConvenienceInitializers @objc public class APRAdExtras : ObjectiveC.NSObject {
-  @objc required override dynamic public init()
-  @objc public func set(key: AppierAds.APRDataKey, value: Any)
-  @objc public func get(key: AppierAds.APRDataKey) -> Any?
-  @objc deinit
-}
-@objc public enum APRDataKey : Swift.Int {
-  case adUnitId
-  case zoneId
-  case adWidth
-  case adHeight
-  case adOrientation
-  case appInfo
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@objc final public class APRAdUnitId : ObjectiveC.NSObject, AppierAds.APRAdUnitIdentifier {
-  @objc public init(_ adUnitId: Swift.String)
-  @objc final public func get() -> Swift.String
-  @objc final public func build() -> Swift.String
-  @objc deinit
-}
-@objc public protocol APRAdUnitIdentifier {
-  @objc func get() -> Swift.String
-  @objc func build() -> Swift.String
-}
-@objc public enum APRBrowserAgent : Swift.Int {
-  case native
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
 }
 @objc public enum APRTestMode : Swift.Int, Swift.CustomStringConvertible {
   public var description: Swift.String {
@@ -122,72 +217,10 @@ import os
     get
   }
 }
-@_inheritsConvenienceInitializers @objc final public class APRAdsConfiguraiton : ObjectiveC.NSObject {
-  @objc final public var testMode: AppierAds.APRTestMode
-  @objc final public var browserAgent: AppierAds.APRBrowserAgent
-  @objc final public var coppaApplies: Swift.Bool
-  @objc final public var gdprApplies: Swift.Bool {
-    @objc get
-    @objc set
-  }
-  @objc final public var forceGDPRApplies: Swift.Bool {
-    @objc get
-    @objc set
-  }
-  @objc override dynamic public init()
-  @objc deinit
-}
-@objc public class APRError : ObjectiveC.NSObject, Swift.Error {
-  @objc override dynamic public var description: Swift.String {
-    @objc get
-  }
-  @objc public init(type: AppierAds.APRErrorType)
-  @objc deinit
-}
-@objc public enum APRErrorType : Swift.Int {
-  case noFill
-  case zoneIdError
-  case adUnitIdError
-  case networkError
-  case badRequest
-  case internalServerError
-  case invalidJson
-  case webViewError
-  case videoPlaybackError
-  case videoFileError
-  case fetchImageError
-  case unknownError
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-public enum NetworkStatus : Swift.String {
-  case notReachable
-  case reachableViaWiFi
-  case reachableViaCellularUnknownGeneration
-  case reachableViaCellular2G
-  case reachableViaCellular3G
-  case reachableViaCellular4G
-  case reachableViaCellular5G
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-@objc public class APRLogger : ObjectiveC.NSObject {
-  @objc final public let category: Swift.String
-  @objc public var enable: Swift.Bool {
-    @objc get
-  }
-  public init(category: Swift.String)
-  public func debug(_ message: AppierAds.LogMessage)
-  public func info(_ message: AppierAds.LogMessage)
-  public func warning(_ message: AppierAds.LogMessage)
-  public func error(_ message: AppierAds.LogMessage)
-  @objc deinit
+public enum LoaderResult<T> : Swift.Equatable where T : Swift.Equatable {
+  public static func == (lhs: AppierAds.LoaderResult<T>, rhs: AppierAds.LoaderResult<T>) -> Swift.Bool
+  case success(T)
+  case failure(any Swift.Error)
 }
 public struct LogMessage {
 }
@@ -211,18 +244,32 @@ extension AppierAds.LogMessage : Swift.ExpressibleByStringInterpolation {
     public typealias StringLiteralType = AppierAds.LogMessage.StringLiteralType
   }
 }
-extension AppierAds.APRDataKey : Swift.Equatable {}
-extension AppierAds.APRDataKey : Swift.Hashable {}
-extension AppierAds.APRDataKey : Swift.RawRepresentable {}
+public enum NetworkStatus : Swift.String {
+  case notReachable
+  case reachableViaWiFi
+  case reachableViaCellularUnknownGeneration
+  case reachableViaCellular2G
+  case reachableViaCellular3G
+  case reachableViaCellular4G
+  case reachableViaCellular5G
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 extension AppierAds.APRBrowserAgent : Swift.Equatable {}
 extension AppierAds.APRBrowserAgent : Swift.Hashable {}
 extension AppierAds.APRBrowserAgent : Swift.RawRepresentable {}
-extension AppierAds.APRTestMode : Swift.Equatable {}
-extension AppierAds.APRTestMode : Swift.Hashable {}
-extension AppierAds.APRTestMode : Swift.RawRepresentable {}
+extension AppierAds.APRDataKey : Swift.Equatable {}
+extension AppierAds.APRDataKey : Swift.Hashable {}
+extension AppierAds.APRDataKey : Swift.RawRepresentable {}
 extension AppierAds.APRErrorType : Swift.Equatable {}
 extension AppierAds.APRErrorType : Swift.Hashable {}
 extension AppierAds.APRErrorType : Swift.RawRepresentable {}
+extension AppierAds.APRTestMode : Swift.Equatable {}
+extension AppierAds.APRTestMode : Swift.Hashable {}
+extension AppierAds.APRTestMode : Swift.RawRepresentable {}
 extension AppierAds.NetworkStatus : Swift.Equatable {}
 extension AppierAds.NetworkStatus : Swift.Hashable {}
 extension AppierAds.NetworkStatus : Swift.RawRepresentable {}
