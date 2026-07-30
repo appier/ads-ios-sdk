@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license    = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Appier" => "appier-ssp-dev@appier.com" }
   s.platform     = :ios, '12.0'
-  s.source       = { :git => "https://github.com/appier/ads-ios-sdk.git", :tag => "ads-sdk-#{package['version']}"}
+  s.source       = { :git => "https://github.com/appier/ads-ios-sdk.git", :tag => package['version']}
   s.ios.vendored_frameworks = 'AppierAds.xcframework'
   # AppierAds links (does not embed) the Argus device-signal SDK, so integrators
   # must pull it in as a separate dependency.
