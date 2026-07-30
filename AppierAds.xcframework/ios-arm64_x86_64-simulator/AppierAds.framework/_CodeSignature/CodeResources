@@ -6,189 +6,174 @@
 	<dict>
 		<key>Headers/AppierAds-Swift.h</key>
 		<data>
-		kqe73tPI0O6NE+uRZWqh+6LXuhY=
+		M/ziYHrj/oyP5OILM9P/yrrFGV0=
+		</data>
+		<key>Headers/AppierAdsSdk.h</key>
+		<data>
+		6eiatDLEqAu8RsgHzGxkvoiEl3c=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7iTLwZJax+Tt14yvPkKIu54fF88=
+		7fGF3srPa6140tPT3QCcQIO2iF8=
 		</data>
 		<key>Modules/AppierAds.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		/qVd97nd84g3kxMb3VJCZyn687Q=
+		IWUtoPfE8zl64Dk0iFFvsww2oi4=
 		</data>
 		<key>Modules/AppierAds.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		waVRjw5ydoz1sL8JakHOMck0ISI=
+		LcCPNjaHB7hlQyohfFoAyYs8Bh4=
 		</data>
 		<key>Modules/AppierAds.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		HZNJCNMRB2pNE72kN35KDZcFocI=
+		2CxpLooNj4HnHVScxxntR/hOFVs=
 		</data>
 		<key>Modules/AppierAds.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		waVRjw5ydoz1sL8JakHOMck0ISI=
+		LcCPNjaHB7hlQyohfFoAyYs8Bh4=
 		</data>
 		<key>Modules/AppierAds.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		l31p/xlSyW7sSRn/lMz3ZaPQHe0=
+		Axpl1fNm/Qh0fymV68Io4D/kbb8=
 		</data>
 		<key>Modules/AppierAds.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		/qVd97nd84g3kxMb3VJCZyn687Q=
+		IWUtoPfE8zl64Dk0iFFvsww2oi4=
 		</data>
 		<key>Modules/AppierAds.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		5QJYwIwhxdc8ObGshdWHia5back=
+		9Xyb62cO8WNZLI7YAh2ysDvCDVY=
 		</data>
 		<key>Modules/AppierAds.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		xyw7Y+DgMA+aBGh30Jwg3CGuCB4=
+		w2nKXs0snSZX4rbcS9ETPi3TgnI=
 		</data>
 		<key>Modules/AppierAds.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		5QJYwIwhxdc8ObGshdWHia5back=
+		9Xyb62cO8WNZLI7YAh2ysDvCDVY=
 		</data>
 		<key>Modules/AppierAds.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/iyPLgap4aPbGfbvH+xpMBIWSAo=
+		0znk8Rdi7cRYuzJVXnzSjJfJalg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		jI2p0ar9YvvtvjaXnt2XUDrmXiI=
+		</data>
+		<key>appier_browser_button_close.png</key>
+		<data>
+		qncldD/OGsGooQAF8yoioR9zZc4=
+		</data>
+		<key>appier_interstitial_button_close.png</key>
+		<data>
+		RNHStoMzUtv7e7A+EantsZxZuo4=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Headers/AppierAds-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kqe73tPI0O6NE+uRZWqh+6LXuhY=
-			</data>
 			<key>hash2</key>
 			<data>
-			H8ZFvA9ZaI83q/3hAqh50JO1hU14RHxvFOr0lTj3hHo=
+			inMMGsHvaI/d5Dz02sSuL4ImvxJ0zpOwqrWiu+74kgc=
+			</data>
+		</dict>
+		<key>Headers/AppierAdsSdk.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			y1PBlyObwrg3OSTE5tN7qD3qvwV5BcPur2uFLLztst8=
 			</data>
 		</dict>
 		<key>Modules/AppierAds.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/qVd97nd84g3kxMb3VJCZyn687Q=
-			</data>
 			<key>hash2</key>
 			<data>
-			hRXWC0LPA2v8Ge5/qNpDeHhf5xBwEf1di2hmLSWJiyQ=
+			s7gBwqxZCiiosCGamwJ0lbXPo1TUu92x7kTc7q47Ov8=
 			</data>
 		</dict>
 		<key>Modules/AppierAds.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			waVRjw5ydoz1sL8JakHOMck0ISI=
-			</data>
 			<key>hash2</key>
 			<data>
-			WZNPAfAqOYr2MzTIbEKM41mak2B8iuiq2ckaghfgnvM=
+			kdFS761GX+5rLgBhI3jyquV7DuJqu3NzQNKXXOiOkfM=
 			</data>
 		</dict>
 		<key>Modules/AppierAds.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HZNJCNMRB2pNE72kN35KDZcFocI=
-			</data>
 			<key>hash2</key>
 			<data>
-			ys/V9EdZa/s7fSHWbK2YukUlJnrxTO2aWqvBJRLKtoU=
+			1V65OWIFvk6NclV1eEirv6SFmw8CXs3Een/HC8h3D5c=
 			</data>
 		</dict>
 		<key>Modules/AppierAds.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			waVRjw5ydoz1sL8JakHOMck0ISI=
-			</data>
 			<key>hash2</key>
 			<data>
-			WZNPAfAqOYr2MzTIbEKM41mak2B8iuiq2ckaghfgnvM=
+			kdFS761GX+5rLgBhI3jyquV7DuJqu3NzQNKXXOiOkfM=
 			</data>
 		</dict>
 		<key>Modules/AppierAds.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			l31p/xlSyW7sSRn/lMz3ZaPQHe0=
-			</data>
 			<key>hash2</key>
 			<data>
-			qoADg4a6YzlEu5MwLNcoeIbNxnrWmWEfkrn5Qnp8iXk=
+			XpOaWLzdJ/Lfezj7C3cXaGtD4i5bPxLiQ6m8ucODiHU=
 			</data>
 		</dict>
 		<key>Modules/AppierAds.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/qVd97nd84g3kxMb3VJCZyn687Q=
-			</data>
 			<key>hash2</key>
 			<data>
-			hRXWC0LPA2v8Ge5/qNpDeHhf5xBwEf1di2hmLSWJiyQ=
+			s7gBwqxZCiiosCGamwJ0lbXPo1TUu92x7kTc7q47Ov8=
 			</data>
 		</dict>
 		<key>Modules/AppierAds.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			5QJYwIwhxdc8ObGshdWHia5back=
-			</data>
 			<key>hash2</key>
 			<data>
-			D2NBCIXkwI1yppz4GHFDh7qL1RTrDW/L7LoGCuaRudA=
+			SqN3srl/7fH8QUVc2zTbfxMzm7nVdmCq5wpa0lgTY3c=
 			</data>
 		</dict>
 		<key>Modules/AppierAds.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xyw7Y+DgMA+aBGh30Jwg3CGuCB4=
-			</data>
 			<key>hash2</key>
 			<data>
-			622d+z4pwZPky3fAAb3JfyDmNFUSgDXgSnHHgXIr0b8=
+			mJRitENtVnckQInz5Sk05sNbjkpvj76QY9iSnBFmLJw=
 			</data>
 		</dict>
 		<key>Modules/AppierAds.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			5QJYwIwhxdc8ObGshdWHia5back=
-			</data>
 			<key>hash2</key>
 			<data>
-			D2NBCIXkwI1yppz4GHFDh7qL1RTrDW/L7LoGCuaRudA=
+			SqN3srl/7fH8QUVc2zTbfxMzm7nVdmCq5wpa0lgTY3c=
 			</data>
 		</dict>
 		<key>Modules/AppierAds.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/iyPLgap4aPbGfbvH+xpMBIWSAo=
-			</data>
 			<key>hash2</key>
 			<data>
-			WGGnjiSxOjhtxvQT3VLyePAbMZJDerHkqqzrlBdWhuU=
+			d7pVlRrIyIwI5Xbn7bViVfzlXenGGr57OBQ/pNWxBVM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jI2p0ar9YvvtvjaXnt2XUDrmXiI=
-			</data>
 			<key>hash2</key>
 			<data>
 			BMzOJuhHHcPvFT2ixQcAIbuN5yWeke5Qcy6fX+608ic=
+			</data>
+		</dict>
+		<key>appier_browser_button_close.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QSHXB+fN1SmHb2mRgEQxnrqMLaNK/D3UuoB4g8bwFBs=
+			</data>
+		</dict>
+		<key>appier_interstitial_button_close.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oEEhVNLnjclHxMMhddj+MRfqj5j2dVAwtuJkmrIIdXI=
 			</data>
 		</dict>
 	</dict>
