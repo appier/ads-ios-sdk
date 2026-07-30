@@ -10,6 +10,11 @@ let package = Package(
             targets: ["AppierAdsWrapper"]
         )
     ],
+    dependencies: [
+        // AppierAds links (does not embed) the Argus device-signal SDK, so its
+        // SPM product must be resolved and linked alongside AppierAds.
+        .package(url: "https://github.com/appier/ads-argus-ios", exact: "1.0.0")
+    ],
     targets: [
         .binaryTarget(
             name: "AppierAds",
@@ -18,7 +23,8 @@ let package = Package(
         .target(
             name: "AppierAdsWrapper",
             dependencies: [
-                .target(name: "AppierAds")
+                .target(name: "AppierAds"),
+                .product(name: "Argus", package: "ads-argus-ios")
             ],
             path: "Sources/AppierAdsWrapper",
             linkerSettings: [
