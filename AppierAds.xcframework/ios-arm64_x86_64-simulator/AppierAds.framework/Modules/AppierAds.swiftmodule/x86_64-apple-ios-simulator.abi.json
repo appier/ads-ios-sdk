@@ -136,38 +136,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -178,10 +150,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -192,10 +178,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -337,38 +337,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -379,10 +351,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -393,10 +379,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -506,8 +506,8 @@
       },
       {
         "kind": "Import",
-        "name": "Argus",
-        "printedName": "Argus",
+        "name": "Aistra",
+        "printedName": "Aistra",
         "declKind": "Import",
         "moduleName": "AppierAds"
       },
@@ -839,38 +839,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -881,10 +853,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -895,10 +881,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -1106,17 +1106,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -1492,17 +1492,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -1669,45 +1669,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Error",
-            "printedName": "Error",
-            "usr": "s:s5ErrorP",
-            "mangledName": "$ss5ErrorP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -1718,17 +1683,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
@@ -1739,10 +1704,31 @@
           },
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -1750,6 +1736,20 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
           }
         ]
       },
@@ -2431,17 +2431,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -2786,38 +2786,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -2828,10 +2800,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -2842,10 +2828,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -2865,8 +2865,15 @@
       },
       {
         "kind": "Import",
-        "name": "Argus",
-        "printedName": "Argus",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "AppierAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Aistra",
+        "printedName": "Aistra",
         "declKind": "Import",
         "moduleName": "AppierAds"
       },
@@ -3129,6 +3136,210 @@
             "protocolReq": true,
             "declAttributes": [
               "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onVideoStart",
+            "printedName": "onVideoStart(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "APRNativeAd",
+                "printedName": "AppierAds.APRNativeAd",
+                "usr": "c:@M@AppierAds@objc(cs)APRNativeAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppierAds@objc(pl)APRNativeAdDelegate(im)onVideoStart:",
+            "mangledName": "$s9AppierAds19APRNativeAdDelegateP12onVideoStartyyAA0cD0CF",
+            "moduleName": "AppierAds",
+            "genericSig": "<τ_0_0 where τ_0_0 : AppierAds.APRNativeAdDelegate>",
+            "sugared_genericSig": "<Self where Self : AppierAds.APRNativeAdDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onVideoPause",
+            "printedName": "onVideoPause(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "APRNativeAd",
+                "printedName": "AppierAds.APRNativeAd",
+                "usr": "c:@M@AppierAds@objc(cs)APRNativeAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppierAds@objc(pl)APRNativeAdDelegate(im)onVideoPause:",
+            "mangledName": "$s9AppierAds19APRNativeAdDelegateP12onVideoPauseyyAA0cD0CF",
+            "moduleName": "AppierAds",
+            "genericSig": "<τ_0_0 where τ_0_0 : AppierAds.APRNativeAdDelegate>",
+            "sugared_genericSig": "<Self where Self : AppierAds.APRNativeAdDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onVideoResume",
+            "printedName": "onVideoResume(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "APRNativeAd",
+                "printedName": "AppierAds.APRNativeAd",
+                "usr": "c:@M@AppierAds@objc(cs)APRNativeAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppierAds@objc(pl)APRNativeAdDelegate(im)onVideoResume:",
+            "mangledName": "$s9AppierAds19APRNativeAdDelegateP13onVideoResumeyyAA0cD0CF",
+            "moduleName": "AppierAds",
+            "genericSig": "<τ_0_0 where τ_0_0 : AppierAds.APRNativeAdDelegate>",
+            "sugared_genericSig": "<Self where Self : AppierAds.APRNativeAdDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onVideoComplete",
+            "printedName": "onVideoComplete(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "APRNativeAd",
+                "printedName": "AppierAds.APRNativeAd",
+                "usr": "c:@M@AppierAds@objc(cs)APRNativeAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppierAds@objc(pl)APRNativeAdDelegate(im)onVideoComplete:",
+            "mangledName": "$s9AppierAds19APRNativeAdDelegateP15onVideoCompleteyyAA0cD0CF",
+            "moduleName": "AppierAds",
+            "genericSig": "<τ_0_0 where τ_0_0 : AppierAds.APRNativeAdDelegate>",
+            "sugared_genericSig": "<Self where Self : AppierAds.APRNativeAdDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onVideoMuteChanged",
+            "printedName": "onVideoMuteChanged(_:muted:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "APRNativeAd",
+                "printedName": "AppierAds.APRNativeAd",
+                "usr": "c:@M@AppierAds@objc(cs)APRNativeAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppierAds@objc(pl)APRNativeAdDelegate(im)onVideoMuteChanged:muted:",
+            "mangledName": "$s9AppierAds19APRNativeAdDelegateP18onVideoMuteChanged_5mutedyAA0cD0C_SbtF",
+            "moduleName": "AppierAds",
+            "genericSig": "<τ_0_0 where τ_0_0 : AppierAds.APRNativeAdDelegate>",
+            "sugared_genericSig": "<Self where Self : AppierAds.APRNativeAdDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onVideoError",
+            "printedName": "onVideoError(_:code:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "APRNativeAd",
+                "printedName": "AppierAds.APRNativeAd",
+                "usr": "c:@M@AppierAds@objc(cs)APRNativeAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppierAds@objc(pl)APRNativeAdDelegate(im)onVideoError:code:",
+            "mangledName": "$s9AppierAds19APRNativeAdDelegateP12onVideoError_4codeyAA0cD0C_SStF",
+            "moduleName": "AppierAds",
+            "genericSig": "<τ_0_0 where τ_0_0 : AppierAds.APRNativeAdDelegate>",
+            "sugared_genericSig": "<Self where Self : AppierAds.APRNativeAdDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -4089,7 +4300,8 @@
             "declAttributes": [
               "Final",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -4127,12 +4339,14 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9AppierAds11APRNativeAdC16recordImpressionyyF",
+            "usr": "c:@M@AppierAds@objc(cs)APRNativeAd(im)recordImpression",
             "mangledName": "$s9AppierAds11APRNativeAdC16recordImpressionyyF",
             "moduleName": "AppierAds",
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -4155,6 +4369,281 @@
               "Final",
               "AccessControl",
               "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hasVideoContent",
+            "printedName": "hasVideoContent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AppierAds@objc(cs)APRNativeAd(py)hasVideoContent",
+            "mangledName": "$s9AppierAds11APRNativeAdC15hasVideoContentSbvp",
+            "moduleName": "AppierAds",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AppierAds@objc(cs)APRNativeAd(im)hasVideoContent",
+                "mangledName": "$s9AppierAds11APRNativeAdC15hasVideoContentSbvg",
+                "moduleName": "AppierAds",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mediationVideoAspectRatio",
+            "printedName": "mediationVideoAspectRatio",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AppierAds@objc(cs)APRNativeAd(py)mediationVideoAspectRatio",
+            "mangledName": "$s9AppierAds11APRNativeAdC25mediationVideoAspectRatio12CoreGraphics7CGFloatVvp",
+            "moduleName": "AppierAds",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AppierAds@objc(cs)APRNativeAd(im)mediationVideoAspectRatio",
+                "mangledName": "$s9AppierAds11APRNativeAdC25mediationVideoAspectRatio12CoreGraphics7CGFloatVvg",
+                "moduleName": "AppierAds",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mediationVideoDuration",
+            "printedName": "mediationVideoDuration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AppierAds@objc(cs)APRNativeAd(py)mediationVideoDuration",
+            "mangledName": "$s9AppierAds11APRNativeAdC22mediationVideoDurationSdvp",
+            "moduleName": "AppierAds",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AppierAds@objc(cs)APRNativeAd(im)mediationVideoDuration",
+                "mangledName": "$s9AppierAds11APRNativeAdC22mediationVideoDurationSdvg",
+                "moduleName": "AppierAds",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mediationVideoCurrentTime",
+            "printedName": "mediationVideoCurrentTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AppierAds@objc(cs)APRNativeAd(py)mediationVideoCurrentTime",
+            "mangledName": "$s9AppierAds11APRNativeAdC25mediationVideoCurrentTimeSdvp",
+            "moduleName": "AppierAds",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AppierAds@objc(cs)APRNativeAd(im)mediationVideoCurrentTime",
+                "mangledName": "$s9AppierAds11APRNativeAdC25mediationVideoCurrentTimeSdvg",
+                "moduleName": "AppierAds",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "teardownVideoAdView",
+            "printedName": "teardownVideoAdView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppierAds@objc(cs)APRNativeAd(im)teardownVideoAdView",
+            "mangledName": "$s9AppierAds11APRNativeAdC013teardownVideoD4ViewyyF",
+            "moduleName": "AppierAds",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeVideoAdView",
+            "printedName": "makeVideoAdView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppierAds@objc(cs)APRNativeAd(im)makeVideoAdView",
+            "mangledName": "$s9AppierAds11APRNativeAdC09makeVideoD4ViewSo6UIViewCSgyF",
+            "moduleName": "AppierAds",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeMediationVideoAdView",
+            "printedName": "makeMediationVideoAdView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppierAds@objc(cs)APRNativeAd(im)makeMediationVideoAdView",
+            "mangledName": "$s9AppierAds11APRNativeAdC018makeMediationVideoD4ViewSo6UIViewCSgyF",
+            "moduleName": "AppierAds",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -4244,12 +4733,14 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9AppierAds11APRNativeAdC07untrackD4ViewyyF",
+            "usr": "c:@M@AppierAds@objc(cs)APRNativeAd(im)untrackAdView",
             "mangledName": "$s9AppierAds11APRNativeAdC07untrackD4ViewyyF",
             "moduleName": "AppierAds",
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -4273,38 +4764,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -4315,10 +4778,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -4329,10 +4806,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -5102,17 +5593,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -5177,6 +5668,13 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AppierAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "AppierAds"
       },
@@ -5737,38 +6235,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -5779,10 +6249,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -5793,10 +6277,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -5989,38 +6487,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -6031,10 +6501,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -6045,10 +6529,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -6432,6 +6930,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
@@ -6439,10 +6944,25 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "ExpressibleByStringInterpolation",
+            "printedName": "ExpressibleByStringInterpolation",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringInterpolation",
+                "printedName": "StringInterpolation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StringInterpolation",
+                    "printedName": "AppierAds.LogMessage.StringInterpolation",
+                    "usr": "s:9AppierAds10LogMessageV19StringInterpolationV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s32ExpressibleByStringInterpolationP",
+            "mangledName": "$ss32ExpressibleByStringInterpolationP"
           },
           {
             "kind": "Conformance",
@@ -6509,28 +7029,6 @@
             ],
             "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
             "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ExpressibleByStringInterpolation",
-            "printedName": "ExpressibleByStringInterpolation",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "StringInterpolation",
-                "printedName": "StringInterpolation",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "StringInterpolation",
-                    "printedName": "AppierAds.LogMessage.StringInterpolation",
-                    "usr": "s:9AppierAds10LogMessageV19StringInterpolationV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s32ExpressibleByStringInterpolationP",
-            "mangledName": "$ss32ExpressibleByStringInterpolationP"
           }
         ]
       },
@@ -6559,6 +7057,97 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AppierAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppierAds"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "AppierAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppierAds"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "AppierAds"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AppierAds"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "AppierAds"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "AppierAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppierAds"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "AppierAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppierAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppierAds"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "AppierAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "AppierAds"
       },
@@ -6939,17 +7528,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -6981,6 +7570,20 @@
             "mangledName": "$sSY"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AppierAds"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "AppierAds"
       },
       {
         "kind": "Import",
@@ -7026,6 +7629,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "AppierAds"
       },
       {
         "kind": "Import",
@@ -7088,9 +7698,120 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "AppierAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "AppierAds",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLSessionTask",
+        "printedName": "URLSessionTask",
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSURLSessionTask",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "intro_iOS": "7.0",
+        "objc_name": "NSURLSessionTask",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
         ]
       },
       {
@@ -7109,10 +7830,24 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "_CFObject",
+            "printedName": "_CFObject",
+            "usr": "s:14CoreFoundation9_CFObjectP",
+            "mangledName": "$s14CoreFoundation9_CFObjectP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -7123,24 +7858,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "_CFObject",
-            "printedName": "_CFObject",
-            "usr": "s:14CoreFoundation9_CFObjectP",
-            "mangledName": "$s14CoreFoundation9_CFObjectP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           }
         ]
       }
@@ -7149,1057 +7870,1442 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Banner\/Model\/APRBannerAdModel.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Banner\/Model\/APRBannerAdModel.swift",
       "kind": "StringLiteral",
       "offset": 286,
       "length": 7,
       "value": "\"skadn\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Banner\/APRBannerAdView.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Banner\/APRBannerAdView.swift",
       "kind": "StringLiteral",
       "offset": 737,
       "length": 8,
       "value": "\"appier\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Banner\/APRBannerAdView.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Banner\/APRBannerAdView.swift",
       "kind": "Array",
       "offset": 1118,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/AdExtras\/APRDataKey.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/AdExtras\/APRDataKey.swift",
       "kind": "IntegerLiteral",
       "offset": 63,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/AdExtras\/APRDataKey.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/AdExtras\/APRDataKey.swift",
       "kind": "IntegerLiteral",
       "offset": 79,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/AdExtras\/APRDataKey.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/AdExtras\/APRDataKey.swift",
       "kind": "IntegerLiteral",
       "offset": 96,
       "length": 8,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/AdExtras\/APRDataKey.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/AdExtras\/APRDataKey.swift",
       "kind": "IntegerLiteral",
       "offset": 114,
       "length": 13,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/AdExtras\/APRDataKey.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/AdExtras\/APRDataKey.swift",
       "kind": "IntegerLiteral",
       "offset": 137,
       "length": 7,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Error\/APRError.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Error\/APRError.swift",
       "kind": "StringLiteral",
       "offset": 200,
       "length": 11,
       "value": "\"No ad bid\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Error\/APRError.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Error\/APRError.swift",
       "kind": "StringLiteral",
       "offset": 250,
       "length": 28,
       "value": "\"Invalid or missing zone id\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Error\/APRError.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Error\/APRError.swift",
       "kind": "StringLiteral",
       "offset": 319,
       "length": 31,
       "value": "\"Invalid or missing ad unit id\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Error\/APRError.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Error\/APRError.swift",
       "kind": "StringLiteral",
       "offset": 390,
       "length": 14,
       "value": "\"Network fail\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Error\/APRError.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Error\/APRError.swift",
       "kind": "StringLiteral",
       "offset": 442,
       "length": 33,
       "value": "\"Bad request or error parameters\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Error\/APRError.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Error\/APRError.swift",
       "kind": "StringLiteral",
       "offset": 522,
       "length": 17,
       "value": "\"Ad server error\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Error\/APRError.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Error\/APRError.swift",
       "kind": "StringLiteral",
       "offset": 578,
       "length": 37,
       "value": "\"The ad contains invalid json format\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Error\/APRError.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Error\/APRError.swift",
       "kind": "StringLiteral",
       "offset": 655,
       "length": 50,
       "value": "\"Web view receives error during loading resources\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Error\/APRError.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Error\/APRError.swift",
       "kind": "StringLiteral",
       "offset": 751,
       "length": 23,
       "value": "\"Error playing a video\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Error\/APRError.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Error\/APRError.swift",
       "kind": "StringLiteral",
       "offset": 816,
       "length": 26,
       "value": "\"Error loading video file\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Error\/APRError.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Error\/APRError.swift",
       "kind": "StringLiteral",
       "offset": 885,
       "length": 19,
       "value": "\"Fetch image error\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Error\/APRError.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Error\/APRError.swift",
       "kind": "StringLiteral",
       "offset": 944,
       "length": 15,
       "value": "\"Unknown error\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Error\/APRError.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Error\/APRError.swift",
       "kind": "StringLiteral",
       "offset": 1003,
       "length": 35,
       "value": "\"Cannot convert data to data model\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Error\/APRError.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Error\/APRError.swift",
       "kind": "StringLiteral",
       "offset": 1081,
       "length": 19,
       "value": "\"Request not exist\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Error\/APRErrorType.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Error\/APRErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 81,
       "length": 11,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Error\/APRErrorType.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Error\/APRErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 102,
       "length": 13,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Error\/APRErrorType.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Error\/APRErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 125,
       "length": 12,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Error\/APRErrorType.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Error\/APRErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 147,
       "length": 10,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Error\/APRErrorType.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Error\/APRErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 167,
       "length": 19,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Error\/APRErrorType.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Error\/APRErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 196,
       "length": 11,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Error\/APRErrorType.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Error\/APRErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 217,
       "length": 12,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Error\/APRErrorType.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Error\/APRErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 239,
       "length": 18,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Error\/APRErrorType.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Error\/APRErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 267,
       "length": 14,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Error\/APRErrorType.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Error\/APRErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 291,
       "length": 15,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Error\/APRErrorType.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Error\/APRErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 316,
       "length": 12,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Error\/APRErrorType.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Error\/APRErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 338,
       "length": 16,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Error\/APRErrorType.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Error\/APRErrorType.swift",
       "kind": "IntegerLiteral",
       "offset": 364,
       "length": 15,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Interstitial\/APRInterstitialAd.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Interstitial\/APRInterstitialAd.swift",
       "kind": "BooleanLiteral",
       "offset": 1024,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Interstitial\/APRInterstitialAd.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Interstitial\/APRInterstitialAd.swift",
       "kind": "BooleanLiteral",
       "offset": 1072,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Interstitial\/APRInterstitialAdViewController.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Interstitial\/APRInterstitialAdViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 879,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Interstitial\/APRInterstitialAdViewController.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Interstitial\/APRInterstitialAdViewController.swift",
       "kind": "StringLiteral",
       "offset": 1053,
       "length": 8,
       "value": "\"appier\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Interstitial\/APRInterstitialAdViewController.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Interstitial\/APRInterstitialAdViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1196,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Interstitial\/APRInterstitialAdViewController.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Interstitial\/APRInterstitialAdViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1460,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Interstitial\/APRInterstitialAdViewController.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Interstitial\/APRInterstitialAdViewController.swift",
       "kind": "StringLiteral",
       "offset": 1843,
       "length": 34,
       "value": "\"appier_interstitial_button_close\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Interstitial\/APRInterstitialAdViewController.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Interstitial\/APRInterstitialAdViewController.swift",
       "kind": "StringLiteral",
       "offset": 1887,
       "length": 5,
       "value": "\"png\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Interstitial\/APRInterstitialAdViewController.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Interstitial\/APRInterstitialAdViewController.swift",
       "kind": "StringLiteral",
       "offset": 1897,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Interstitial\/APRInterstitialAdViewController.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Interstitial\/APRInterstitialAdViewController.swift",
       "kind": "Array",
       "offset": 2199,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Logger\/APRLogger.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Logger\/APRLogger.swift",
       "kind": "StringLiteral",
       "offset": 59,
       "length": 7,
       "value": "\"DEBUG\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Logger\/APRLogger.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Logger\/APRLogger.swift",
       "kind": "StringLiteral",
       "offset": 83,
       "length": 6,
       "value": "\"INFO\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Logger\/APRLogger.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Logger\/APRLogger.swift",
       "kind": "StringLiteral",
       "offset": 109,
       "length": 9,
       "value": "\"WARNING\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Logger\/APRLogger.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Logger\/APRLogger.swift",
       "kind": "StringLiteral",
       "offset": 136,
       "length": 7,
       "value": "\"ERROR\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Logger\/APRLogger.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Logger\/APRLogger.swift",
       "kind": "StringLiteral",
       "offset": 314,
       "length": 10,
       "value": "\"APRDebug\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Logger\/APRLogger.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Logger\/APRLogger.swift",
       "kind": "StringLiteral",
       "offset": 329,
       "length": 5,
       "value": "\"YES\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Logger\/APRLogger.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Logger\/APRLogger.swift",
       "kind": "StringLiteral",
       "offset": 544,
       "length": 9,
       "value": "\"Ads SDK\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Logger\/APRLogger.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Logger\/APRLogger.swift",
       "kind": "StringLiteral",
       "offset": 1355,
       "length": 29,
       "value": "\"yyyy-MM-dd HH:mm:ss.SSSSSSZ\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/APRNativeAd.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/APRNativeAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 1238,
+      "offset": 3305,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/APRNativeAd.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/APRNativeAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4262,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/APRNativeAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4534,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/APRNativeAd.swift",
       "kind": "StringLiteral",
-      "offset": 1494,
+      "offset": 4790,
       "length": 25,
       "value": "\"com.appier.nativead.tap\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/APRNativeAd.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/APRNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1711,
+      "offset": 5080,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Configuration\/APRTestMode.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/APRNativeAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5199,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/APRNativeAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22492,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/APRNativeAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22660,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/APRNativeAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22828,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Configuration\/APRTestMode.swift",
       "kind": "IntegerLiteral",
       "offset": 156,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Configuration\/APRTestMode.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Configuration\/APRTestMode.swift",
       "kind": "IntegerLiteral",
       "offset": 159,
       "length": 3,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Configuration\/APRTestMode.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Configuration\/APRTestMode.swift",
       "kind": "IntegerLiteral",
       "offset": 164,
       "length": 5,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Configuration\/APRTestMode.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Configuration\/APRTestMode.swift",
       "kind": "IntegerLiteral",
       "offset": 171,
       "length": 16,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/AdRequestQuery.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/AdRequestQuery.swift",
       "kind": "Array",
       "offset": 112,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Configuration\/AppierAdsConfiguration.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Configuration\/AppierAdsConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 231,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Configuration\/AppierAdsConfiguration.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Configuration\/AppierAdsConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 461,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Configuration\/AppierAdsConfiguration.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Configuration\/AppierAdsConfiguration.swift",
       "kind": "Array",
       "offset": 1104,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Network\/AppierAdsDomain.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Network\/AppierAdsDomain.swift",
       "kind": "StringLiteral",
       "offset": 394,
       "length": 18,
       "value": "\"\/v1\/sdk\/ios\/init\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Network\/AppierAdsDomain.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Network\/AppierAdsDomain.swift",
       "kind": "StringLiteral",
       "offset": 437,
       "length": 12,
       "value": "\"\/v1\/sdk\/ad\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Network\/AppierAdsDomain.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Network\/AppierAdsDomain.swift",
       "kind": "StringLiteral",
       "offset": 476,
       "length": 16,
       "value": "\"\/v2\/sdk\/ios\/ad\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Network\/AppierAdsDomain.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Network\/AppierAdsDomain.swift",
       "kind": "StringLiteral",
       "offset": 522,
       "length": 18,
       "value": "\"itunes.apple.com\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Network\/AppierAdsDomain.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Network\/AppierAdsDomain.swift",
       "kind": "StringLiteral",
       "offset": 575,
       "length": 9,
       "value": "\"\/lookup\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/APRAds\/AppierAdsVersion.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/APRAds\/AppierAdsVersion.swift",
       "kind": "StringLiteral",
       "offset": 649,
       "length": 7,
-      "value": "\"2.0.0\""
+      "value": "\"2.1.0\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/AppierBaseAd.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/AppierBaseAd.swift",
       "kind": "BooleanLiteral",
       "offset": 202,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Security\/AprXorEnc.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Security\/AprXorEnc.swift",
       "kind": "StringLiteral",
       "offset": 666,
       "length": 5,
       "value": "\"ae1\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Security\/AprXorEnc.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Security\/AprXorEnc.swift",
       "kind": "StringLiteral",
       "offset": 707,
       "length": 66,
       "value": "\"6cxqx3vRwA41I8FvZFTjS55xWj5mjvVX2CfV0UP5ywgv0nZ6PoDUeH_it986sZWz\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Security\/AprXorEnc.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Security\/AprXorEnc.swift",
       "kind": "IntegerLiteral",
       "offset": 821,
       "length": 2,
       "value": "48"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Information\/Network\/CellularService.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Information\/Network\/CellularService.swift",
       "kind": "Array",
       "offset": 232,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Information\/Network\/CellularService.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Information\/Network\/CellularService.swift",
       "kind": "Array",
       "offset": 285,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Configuration\/ConsentStatus.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Configuration\/ConsentStatus.swift",
       "kind": "StringLiteral",
       "offset": 112,
       "length": 14,
       "value": "\"explicit_yes\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Configuration\/ConsentStatus.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Configuration\/ConsentStatus.swift",
       "kind": "StringLiteral",
       "offset": 207,
       "length": 13,
       "value": "\"explicit_no\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Configuration\/ConsentStatus.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Configuration\/ConsentStatus.swift",
       "kind": "StringLiteral",
       "offset": 383,
       "length": 9,
       "value": "\"unknown\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Model\/InitializationResponse.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Model\/InitializationResponse.swift",
       "kind": "StringLiteral",
       "offset": 211,
       "length": 12,
       "value": "\"skadnetids\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Interstitial\/Model\/InterstitialAdModel.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Interstitial\/Model\/InterstitialAdModel.swift",
       "kind": "StringLiteral",
       "offset": 289,
       "length": 7,
       "value": "\"skadn\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Logger\/LogMessage.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Logger\/LogMessage.swift",
       "kind": "StringLiteral",
       "offset": 570,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Model\/NativeAdModel.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Model\/NativeAdModel.swift",
       "kind": "StringLiteral",
-      "offset": 608,
+      "offset": 963,
       "length": 5,
       "value": "\"clk\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Model\/NativeAdModel.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Model\/NativeAdModel.swift",
       "kind": "StringLiteral",
-      "offset": 648,
+      "offset": 1003,
       "length": 12,
       "value": "\"impTracker\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Model\/NativeAdModel.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Model\/NativeAdModel.swift",
       "kind": "StringLiteral",
-      "offset": 690,
+      "offset": 1045,
       "length": 12,
       "value": "\"clkTracker\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Model\/NativeAdModel.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Model\/NativeAdModel.swift",
       "kind": "StringLiteral",
-      "offset": 734,
+      "offset": 1089,
       "length": 7,
       "value": "\"skadn\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Model\/NativeAdModel.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Model\/NativeAdModel.swift",
       "kind": "StringLiteral",
-      "offset": 766,
+      "offset": 1121,
       "length": 8,
       "value": "\"native\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Model\/NativeAdModel.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Model\/NativeAdModel.swift",
       "kind": "StringLiteral",
-      "offset": 1224,
+      "offset": 1598,
       "length": 6,
       "value": "\"text\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Model\/NativeAdModel.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Model\/NativeAdModel.swift",
       "kind": "StringLiteral",
-      "offset": 1263,
+      "offset": 1637,
       "length": 9,
       "value": "\"ctaText\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Model\/NativeAdModel.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Model\/NativeAdModel.swift",
       "kind": "StringLiteral",
-      "offset": 1363,
+      "offset": 1737,
       "length": 24,
       "value": "\"privacyInformationIcon\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Model\/NativeAdModel.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Model\/NativeAdModel.swift",
       "kind": "StringLiteral",
-      "offset": 1423,
+      "offset": 1797,
       "length": 24,
       "value": "\"privacyInformationLink\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Loader\/NativeAdRequest.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Loader\/NativeAdRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 478,
+      "offset": 638,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Loader\/NativeAdRequest.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Loader\/NativeAdRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2777,
+      "offset": 3117,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Loader\/NativeAdRequest.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Loader\/NativeAdRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3369,
+      "offset": 3709,
       "length": 15,
       "value": "\"coppa_applies\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Loader\/NativeAdRequest.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Loader\/NativeAdRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3421,
+      "offset": 3761,
       "length": 24,
       "value": "\"current_consent_status\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Loader\/NativeAdRequest.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Loader\/NativeAdRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3478,
+      "offset": 3818,
       "length": 20,
       "value": "\"force_gdpr_applies\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Loader\/NativeAdRequest.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Loader\/NativeAdRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3526,
+      "offset": 3866,
       "length": 14,
       "value": "\"gdpr_applies\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Information\/Network\/NetworkStatus.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1838,
+      "length": 5,
+      "value": "\"400\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1873,
+      "length": 5,
+      "value": "\"401\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1909,
+      "length": 5,
+      "value": "\"402\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1943,
+      "length": 5,
+      "value": "\"403\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1977,
+      "length": 5,
+      "value": "\"405\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 2007,
+      "length": 5,
+      "value": "\"430\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 2038,
+      "length": 5,
+      "value": "\"431\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoAd.swift",
+      "kind": "Array",
+      "offset": 4439,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoAdMapper.swift",
+      "kind": "Array",
+      "offset": 1356,
+      "length": 62,
+      "value": "[\"video\/mp4\", \"video\/quicktime\", \"video\/x-m4v\"]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoAdMapper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1688,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoAdMapper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1736,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoAdMapper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1783,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoAdMapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1846,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4248,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4407,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4447,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4486,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4673,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4863,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4901,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5170,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoAdView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5993,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6845,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24001,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 483,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 718,
+      "length": 4,
+      "value": "0.45"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 825,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1011,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2911,
+      "length": 4,
+      "value": "5000"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3029,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3111,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoPlayabilityCheck.swift",
+      "kind": "Array",
+      "offset": 7508,
+      "length": 22,
+      "value": "[\"playable\", \"tracks\"]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoPlayabilityCheck.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12307,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoPlaybackState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3846,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoPlaybackState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3886,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoPlaybackState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3934,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoPlaybackTiming.swift",
+      "kind": "IntegerLiteral",
+      "offset": 222,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoPlaybackTiming.swift",
+      "kind": "IntegerLiteral",
+      "offset": 259,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoPlaybackTiming.swift",
+      "kind": "IntegerLiteral",
+      "offset": 311,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoPlaybackTiming.swift",
+      "kind": "BooleanLiteral",
+      "offset": 352,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoPlaybackTiming.swift",
+      "kind": "IntegerLiteral",
+      "offset": 400,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoPlaybackTiming.swift",
+      "kind": "BooleanLiteral",
+      "offset": 434,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoPlaybackTiming.swift",
+      "kind": "BooleanLiteral",
+      "offset": 552,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoPlaybackTiming.swift",
+      "kind": "BooleanLiteral",
+      "offset": 587,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoPlaybackTiming.swift",
+      "kind": "IntegerLiteral",
+      "offset": 632,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoPlaybackTiming.swift",
+      "kind": "IntegerLiteral",
+      "offset": 662,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Information\/Network\/NetworkStatus.swift",
       "kind": "StringLiteral",
       "offset": 325,
       "length": 6,
       "value": "\"none\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Information\/Network\/NetworkStatus.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Information\/Network\/NetworkStatus.swift",
       "kind": "StringLiteral",
       "offset": 360,
       "length": 6,
       "value": "\"wifi\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Information\/Network\/NetworkStatus.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Information\/Network\/NetworkStatus.swift",
       "kind": "StringLiteral",
       "offset": 416,
       "length": 10,
       "value": "\"cellular\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Information\/Network\/NetworkStatus.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Information\/Network\/NetworkStatus.swift",
       "kind": "StringLiteral",
       "offset": 461,
       "length": 4,
       "value": "\"2g\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Information\/Network\/NetworkStatus.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Information\/Network\/NetworkStatus.swift",
       "kind": "StringLiteral",
       "offset": 500,
       "length": 4,
       "value": "\"3g\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Information\/Network\/NetworkStatus.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Information\/Network\/NetworkStatus.swift",
       "kind": "StringLiteral",
       "offset": 539,
       "length": 4,
       "value": "\"4g\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Information\/Network\/NetworkStatus.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Information\/Network\/NetworkStatus.swift",
       "kind": "StringLiteral",
       "offset": 578,
       "length": 4,
       "value": "\"5g\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 46,
       "length": 4,
       "value": "\"ia\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 69,
       "length": 8,
       "value": "\"bundle\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 99,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 133,
       "length": 5,
       "value": "\"lat\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 157,
       "length": 8,
       "value": "\"locale\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 188,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 224,
       "length": 5,
       "value": "\"osv\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 258,
       "length": 9,
       "value": "\"min_osv\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 295,
       "length": 10,
       "value": "\"conntype\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 325,
       "length": 9,
       "value": "\"country\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 357,
       "length": 10,
       "value": "\"operator\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 392,
       "length": 15,
       "value": "\"operator_name\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 432,
       "length": 14,
       "value": "\"gdpr_applies\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 475,
       "length": 20,
       "value": "\"force_gdpr_applies\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 521,
       "length": 24,
       "value": "\"current_consent_status\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 570,
       "length": 15,
       "value": "\"coppa_applies\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 610,
       "length": 4,
       "value": "\"sw\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 639,
       "length": 4,
       "value": "\"sh\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 673,
       "length": 4,
       "value": "\"so\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 702,
       "length": 4,
       "value": "\"cb\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 755,
       "length": 11,
       "value": "\"predictid\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 787,
       "length": 11,
       "value": "\"test_mode\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 841,
       "length": 8,
       "value": "\"zoneid\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 873,
       "length": 3,
       "value": "\"w\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 901,
       "length": 3,
       "value": "\"h\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 929,
       "length": 14,
       "value": "\"interstitial\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 993,
       "length": 10,
       "value": "\"adunitid\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 1050,
       "length": 5,
       "value": "\"hwv\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 1075,
       "length": 9,
       "value": "\"pxratio\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 1109,
       "length": 14,
       "value": "\"batterylevel\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/RequestQuery\/QueryParameter.swift",
       "kind": "StringLiteral",
       "offset": 1144,
       "length": 10,
       "value": "\"charging\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Model\/SKAdNetworkDataResponse.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Model\/SKAdNetworkDataResponse.swift",
       "kind": "StringLiteral",
       "offset": 292,
       "length": 10,
       "value": "\"fidelity\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Model\/SKAdNetworkDataResponse.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Model\/SKAdNetworkDataResponse.swift",
       "kind": "StringLiteral",
       "offset": 663,
       "length": 9,
       "value": "\"version\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Model\/SKAdNetworkDataResponse.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Model\/SKAdNetworkDataResponse.swift",
       "kind": "StringLiteral",
       "offset": 700,
       "length": 9,
       "value": "\"network\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Model\/SKAdNetworkDataResponse.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Model\/SKAdNetworkDataResponse.swift",
       "kind": "StringLiteral",
       "offset": 758,
       "length": 12,
       "value": "\"itunesitem\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Model\/SKAdNetworkDataResponse.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Model\/SKAdNetworkDataResponse.swift",
       "kind": "StringLiteral",
       "offset": 796,
       "length": 11,
       "value": "\"sourceapp\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Model\/SKAdNetworkDataResponse.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Model\/SKAdNetworkDataResponse.swift",
       "kind": "StringLiteral",
       "offset": 836,
       "length": 11,
       "value": "\"fidelity1\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Model\/SKAdNetworkDataResponse.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Model\/SKAdNetworkDataResponse.swift",
       "kind": "StringLiteral",
       "offset": 875,
       "length": 11,
       "value": "\"fidelity0\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Configuration\/SKAdNetworkVersion.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Configuration\/SKAdNetworkVersion.swift",
       "kind": "StringLiteral",
       "offset": 49,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Configuration\/SKAdNetworkVersion.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Configuration\/SKAdNetworkVersion.swift",
       "kind": "StringLiteral",
       "offset": 70,
       "length": 5,
       "value": "\"2.0\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Configuration\/SKAdNetworkVersion.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Configuration\/SKAdNetworkVersion.swift",
       "kind": "StringLiteral",
       "offset": 91,
       "length": 5,
       "value": "\"2.2\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Configuration\/SKAdNetworkVersion.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Configuration\/SKAdNetworkVersion.swift",
       "kind": "StringLiteral",
       "offset": 112,
       "length": 5,
       "value": "\"3.0\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Configuration\/SKAdNetworkVersion.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Configuration\/SKAdNetworkVersion.swift",
       "kind": "StringLiteral",
       "offset": 133,
       "length": 5,
       "value": "\"4.0\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/Information\/TrackingAuthorization.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Information\/TrackingAuthorization.swift",
       "kind": "StringLiteral",
       "offset": 127,
       "length": 38,
       "value": "\"00000000-0000-0000-0000-000000000000\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/WebViewJS\/WebViewJS.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/VideoQuartileTracker.swift",
+      "kind": "Array",
+      "offset": 718,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/VideoQuartileTracker.swift",
+      "kind": "Array",
+      "offset": 829,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/VideoQuartileTracker.swift",
+      "kind": "Array",
+      "offset": 943,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/WebViewJS\/WebViewJS.swift",
       "kind": "StringLiteral",
       "offset": 104,
       "length": 218,
       "value": "\"var aiqMobileSdk = { sendData: function(d) { try { var s = { data: d, command: 'data' }; if (window.webkit && window.webkit.messageHandlers) { window.webkit.messageHandlers.aiqua.postMessage(s) } } catch (err) {} } }\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/WebViewJS\/WebViewJS.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/WebViewJS\/WebViewJS.swift",
       "kind": "StringLiteral",
       "offset": 357,
       "length": 435,
       "value": "\"document.addEventListener('click',function(e){e.preventDefault();var t=e.target||e.srcElement,a={};if(t.hasAttribute('aiq-deeplink')){var i=t.getAttribute('aiq-deeplink');i&&(a.deeplink=i)}var n=t.hasAttribute('aiq-close'),r=t.hasAttribute('aiq-close-kill');if(a.closePermanent=r,a.close=n,t.hasAttribute('aiq-event-name')){var s=t.getAttribute('aiq-event-name');a.eventName=s}Object.keys(a).length&&aiqMobileSdk.sendData(a)},false);\""
     },
     {
-      "filePath": "\/Users\/johnson.wang\/Documents\/Appier\/Ads\/appier-ads-ios\/AppierAdsSdk\/WebViewJS\/WebViewJS.swift",
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/WebViewJS\/WebViewJS.swift",
       "kind": "StringLiteral",
       "offset": 825,
       "length": 251,

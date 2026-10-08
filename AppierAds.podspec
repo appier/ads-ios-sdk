@@ -12,9 +12,9 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '12.0'
   s.source       = { :git => "https://github.com/appier/ads-ios-sdk.git", :tag => package['version']}
   s.ios.vendored_frameworks = 'AppierAds.xcframework'
-  # AppierAds links (does not embed) the Argus device-signal SDK, so integrators
+  # AppierAds links (does not embed) the Aistra device-signal SDK, so integrators
   # must pull it in as a separate dependency.
-  s.dependency 'AppierArgus', '1.0.0'
+  s.dependency 'AppierAistra', '2.0.1'
   s.frameworks = 'Foundation', 'UIKit', 'StoreKit', 'AdSupport', 'AppTrackingTransparency'
   s.requires_arc = true
   s.static_framework = true

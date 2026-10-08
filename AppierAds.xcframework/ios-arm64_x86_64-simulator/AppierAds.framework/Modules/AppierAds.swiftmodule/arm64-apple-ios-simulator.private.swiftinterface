@@ -1,17 +1,19 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
-// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AppierAds
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+// swift-compiler-version: Apple Swift version 6.3.3 effective-5.10 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AppierAds
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
+import AVFoundation
 import AdSupport
+import Aistra
 import AppTrackingTransparency
-import Argus
+import CoreGraphics
 import CoreTelephony
 import Foundation
 import StoreKit
 import Swift
 import SystemConfiguration
 import UIKit
-import WebKit
+@preconcurrency import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -19,9 +21,7 @@ import os
 @_inheritsConvenienceInitializers @objc public class APRAdExtras : ObjectiveC.NSObject {
   @objc required override dynamic public init()
   @objc public func set(key: AppierAds.APRDataKey, value: Any)
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func get(key: AppierAds.APRDataKey) -> Any?
-  #endif
   @objc deinit
 }
 @objc final public class APRAdUnitId : ObjectiveC.NSObject, AppierAds.APRAdUnitIdentifier {
@@ -38,16 +38,12 @@ import os
   @objc public static var shared: AppierAds.APRAds
   @objc final public var configuration: AppierAds.APRAdsConfiguration
   @objc final public let version: Swift.String
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc final public func start(completion: ((_ success: Swift.Bool) -> Swift.Void)? = nil)
-  #endif
   @objc deinit
 }
 @objc public enum APRBrowserAgent : Swift.Int {
   case native
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -60,9 +56,7 @@ import os
   case adHeight
   case adOrientation
   case appInfo
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -90,9 +84,7 @@ import os
   case unknownError
   case dataConvertError
   case requestNotExist
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -126,75 +118,68 @@ extension AppierAds.APRLogger {
   @objc func onAdImpressionRecordedFailed(_ nativeAd: AppierAds.APRNativeAd, error: AppierAds.APRError)
   @objc func onAdClickedRecorded(_ nativeAd: AppierAds.APRNativeAd)
   @objc func onAdClickedRecordedFailed(_ nativeAd: AppierAds.APRNativeAd, error: AppierAds.APRError)
+  @objc optional func onVideoStart(_ nativeAd: AppierAds.APRNativeAd)
+  @objc optional func onVideoPause(_ nativeAd: AppierAds.APRNativeAd)
+  @objc optional func onVideoResume(_ nativeAd: AppierAds.APRNativeAd)
+  @objc optional func onVideoComplete(_ nativeAd: AppierAds.APRNativeAd)
+  @objc optional func onVideoMuteChanged(_ nativeAd: AppierAds.APRNativeAd, muted: Swift.Bool)
+  @objc optional func onVideoError(_ nativeAd: AppierAds.APRNativeAd, code: Swift.String)
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class APRNativeAd : AppierAds.AppierBaseAd {
   @objc weak final public var delegate: (any AppierAds.APRNativeAdDelegate)?
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc final public var title: Swift.String? {
     @objc get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc final public var mainText: Swift.String? {
     @objc get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc final public var callToAction: Swift.String? {
     @objc get
   }
-  #endif
   @objc final public var iconImage: UIKit.UIImage?
   @objc final public var mainImage: UIKit.UIImage?
   @objc final public var privacyInformationImage: UIKit.UIImage?
-  #if compiler(>=5.3) && $NonescapableTypes
   final public var clickDestinationUrl: Foundation.URL? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   final public var privacyInformationDestinationUrl: Foundation.URL? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   final public var clickedTrackingUrls: [Foundation.URL]? {
     get
   }
-  #endif
   @objc public init(adUnitId: any AppierAds.APRAdUnitIdentifier)
+  @objc deinit
   @objc final public func set(renderer: any AppierAds.APRNativeAdRendering)
   @objc final public func loadAd()
-  final public func recordImpression()
+  @objc final public func recordImpression()
   @objc final public func render()
-  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public var hasVideoContent: Swift.Bool {
+    @objc get
+  }
+  @objc final public var mediationVideoAspectRatio: CoreFoundation.CGFloat {
+    @objc get
+  }
+  @objc final public var mediationVideoDuration: Foundation.TimeInterval {
+    @objc get
+  }
+  @objc final public var mediationVideoCurrentTime: Foundation.TimeInterval {
+    @objc get
+  }
+  @objc final public func teardownVideoAdView()
+  @objc final public func makeVideoAdView() -> UIKit.UIView?
+  @objc final public func makeMediationVideoAdView() -> UIKit.UIView?
   @objc final public func clickAdView(sender: Any? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc final public func clickPrivacyInformationView(sender: Any? = nil)
-  #endif
-  final public func untrackAdView()
-  @objc deinit
+  @objc final public func untrackAdView()
 }
 @objc public protocol APRNativeAdRendering {
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc var nativeAdTitleLabel: UIKit.UILabel? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc var nativeAdMainTextLabel: UIKit.UILabel? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc var nativeAdCallToActionLabel: UIKit.UILabel? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc var nativeAdIconImageView: UIKit.UIImageView? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc var nativeAdMainImageView: UIKit.UIImageView? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc var nativeAdPrivacyInformationIconView: UIKit.UIView? { get }
-  #endif
   @objc func getNativeAdClickableViews() -> [UIKit.UIView]
 }
 @objc public enum APRTestMode : Swift.Int, Swift.CustomStringConvertible {
@@ -202,9 +187,7 @@ extension AppierAds.APRLogger {
     get
   }
   case none = 0, bid, noBid, bidWithStoreView
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -253,9 +236,7 @@ extension AppierAds.LogMessage : Swift.ExpressibleByStringInterpolation {
   public struct StringInterpolation : Swift.StringInterpolationProtocol {
     public init(literalCapacity: Swift.Int, interpolationCount: Swift.Int)
     public mutating func appendLiteral(_ literal: AppierAds.LogMessage.StringLiteralType)
-    #if compiler(>=5.3) && $NonescapableTypes
     public mutating func appendInterpolation(_ object: Any?)
-    #endif
     public typealias StringLiteralType = AppierAds.LogMessage.StringLiteralType
   }
 }
@@ -267,9 +248,7 @@ public enum NetworkStatus : Swift.String {
   case reachableViaCellular3G
   case reachableViaCellular4G
   case reachableViaCellular5G
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
