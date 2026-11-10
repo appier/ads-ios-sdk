@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'AppierAds.xcframework'
   # AppierAds links (does not embed) the Aistra device-signal SDK, so integrators
   # must pull it in as a separate dependency.
-  s.dependency 'AppierAistra', '2.0.1'
+  s.dependency 'AppierAistra', '2.1.1'
   s.frameworks = 'Foundation', 'UIKit', 'StoreKit', 'AdSupport', 'AppTrackingTransparency'
   s.requires_arc = true
   s.static_framework = true
