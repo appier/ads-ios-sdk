@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		te8DwYk6IlqX7j5VW40U6AnaojQ=
+		b8DERftEROmFHDDlLUDdgxf1Kwk=
 		</data>
 		<key>Modules/AppierAds.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		lrLR7tQpNqeqUFDHZ/1CgHOpscE=
+		AsyimbraG3ZfB7WGpEBTSbgeRYc=
 		</data>
 		<key>Modules/AppierAds.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/AppierAds.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ak48aaYMFOktUhvbMZCXIBsbHtM=
+		dgpqWfp8Cl74AQHZPtQgWQP8BWw=
 		</data>
 		<key>Modules/AppierAds.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		lrLR7tQpNqeqUFDHZ/1CgHOpscE=
+		AsyimbraG3ZfB7WGpEBTSbgeRYc=
 		</data>
 		<key>Modules/AppierAds.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/AppierAds.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		p3NwIR78gEMAvOl5E7fXS1qhkgY=
+		KdkEE+Fke58LOEPeKmXwaA6TAXc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eVTGw9siIRovWwEaDUYW/EU1jEfTl/byI7ciAIOPsX0=
+			PTgUggbyibuOA4o+FdhR+yaJAFi6SF0M7EML52RWjIw=
 			</data>
 		</dict>
 		<key>Modules/AppierAds.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -117,14 +117,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9Wu+O1aRGZBa008KD7j35VcIwBSea5qvRkPqhCxLa5g=
+			KgASnD1uacZp4pOp0RbWBOxiXOoEDU4ugrhBYX3eVSY=
 			</data>
 		</dict>
 		<key>Modules/AppierAds.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eVTGw9siIRovWwEaDUYW/EU1jEfTl/byI7ciAIOPsX0=
+			PTgUggbyibuOA4o+FdhR+yaJAFi6SF0M7EML52RWjIw=
 			</data>
 		</dict>
 		<key>Modules/AppierAds.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -152,7 +152,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			w5HS5PD3vcRzHccNq+YnebGrQRUAsW3WfGD2T2EIcJ8=
+			daWJfzgkmTwxlvjaJRDO1Pa203N1cs8WRIH/aPTUUps=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

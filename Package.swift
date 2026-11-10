@@ -13,7 +13,7 @@ let package = Package(
     dependencies: [
         // AppierAds links (does not embed) the Aistra device-signal SDK, so its
         // SPM product must be resolved and linked alongside AppierAds.
-        .package(url: "https://github.com/appier/ads-aistra-ios", exact: "2.0.1")
+        .package(url: "https://github.com/appier/ads-aistra-ios", exact: "2.1.1")
     ],
     targets: [
         .binaryTarget(

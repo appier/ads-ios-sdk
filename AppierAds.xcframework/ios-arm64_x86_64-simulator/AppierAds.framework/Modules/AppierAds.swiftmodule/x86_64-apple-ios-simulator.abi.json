@@ -7625,6 +7625,20 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "AppierAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Aistra",
+        "printedName": "Aistra",
+        "declKind": "Import",
+        "moduleName": "AppierAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "AppierAds",
         "declAttributes": [
           "RawDocComment"
@@ -7869,6 +7883,13 @@
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Network\/APIRequest.swift",
+      "kind": "Dictionary",
+      "offset": 712,
+      "length": 66,
+      "value": "[(\"Content-Type\", \"application\/json\"), (\"Accept\", \"application\/json\")]"
+    },
     {
       "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Banner\/Model\/APRBannerAdModel.swift",
       "kind": "StringLiteral",
@@ -8399,7 +8420,7 @@
       "kind": "StringLiteral",
       "offset": 649,
       "length": 7,
-      "value": "\"2.1.0\""
+      "value": "\"2.2.0\""
     },
     {
       "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Base\/AppierBaseAd.swift",
@@ -8463,6 +8484,27 @@
       "offset": 383,
       "length": 9,
       "value": "\"unknown\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Network\/DirectURLRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 994,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Network\/DirectURLRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1046,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Network\/DirectURLRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1052,
+      "length": 3,
+      "value": "399"
     },
     {
       "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/APRAds\/Model\/InitializationResponse.swift",
@@ -8810,14 +8852,14 @@
     {
       "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoPlayabilityCheck.swift",
       "kind": "Array",
-      "offset": 7508,
+      "offset": 7746,
       "length": 22,
       "value": "[\"playable\", \"tracks\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/appier-ads-ios\/appier-ads-ios\/AppierAdsSdk\/Ad\/Native\/Video\/NativeVideoPlayabilityCheck.swift",
       "kind": "BooleanLiteral",
-      "offset": 12307,
+      "offset": 12545,
       "length": 5,
       "value": "false"
     },
